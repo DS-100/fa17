@@ -28,7 +28,7 @@ This class is listed as [STAT C100](http://classes.berkeley.edu/content/2017-fal
 
 * **When:** Lectures Tuesdays and Thursdays from 11:00AM to 12:30PM
 * **Where:** [Evans 10](http://www.berkeley.edu/map?evans) 
-* **What:** *tentative* [lecture schedule](syllabus)
+* **What:** *Last semester's* [lecture schedule](http://www.ds100.org/sp17/syllabus)
 * **News:** We will post updates about the class on [Piazza](https://piazza.com/berkeley/fall2017/ds100/home) 
 
 
