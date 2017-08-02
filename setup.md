@@ -35,49 +35,43 @@ order: 2
    Verify your installation by making sure `brew --version` doesn't error at
    your terminal.
 
-2. Next, install `wget`. This is a command-line tool that lets you download
-   files / webpages at the command line.
-
-        # Uses Homebrew to install wget
-        brew install wget
-
-3. Download the Anaconda installation script:
-
-        # Uses wget to download the installation script, naming it install_anaconda.sh
-        wget -O install_anaconda.sh https://repo.continuum.io/archive/Anaconda3-4.2.0-MacOSX-x86_64.sh
-
-4. Install Anaconda:
-
-        # Run the installation script
-        bash install_anaconda.sh
-
-   Ensure the installation worked by running `conda --version`.
-
-5. Run these commands to create a new [conda environment][env]. Each conda
-   environment has its own package versions. This allows us to switch between
-   package versions easily. For example, this class uses Python 3, but you
-   might have another that uses Python 2. With a conda environment, you can
-   switch between those at will.
-
-        # Create a conda env called ds100 that uses python 3.5
-        conda create --name ds100 python=3.5
-
-        # Switch to the ds100 environment
-        source activate ds100
-
-        # Install the packages for ds100
-        conda install -n ds100 jupyter pandas numpy matplotlib scikit-learn seaborn scikit-image
-        pip install datascience okpy
-
-   From now on, you can switch to the `ds100` env with `source activate ds100`,
-   and switch back to the default env with `source deactivate`.
-
-6. Now, use `brew` to install the latest version of `git` by running:
+2. Now, use `brew` to install the latest version of `git` by running:
 
         brew install git
 
    Ensure that `git` is installed by running `git --version`. The version
    should be 2.5.0 or higher.
+
+3. Download and install Anaconda:
+
+        # Uses curl to download the installation script
+        curl https://repo.continuum.io/archive/Anaconda3-4.4.0-MacOSX-x86_64.sh > miniconda.sh
+
+        # Run the miniconda installer (you will need to enter your password)
+        bash miniconda.sh
+
+   Ensure the installation worked by running `conda --version`.
+
+4. Run these commands to create a new [conda environment][env]. Each conda
+   environment has its own package versions. This allows us to switch between
+   package versions easily. For example, this class uses Python 3, but you
+   might have another that uses Python 2. With a conda environment, you can
+   switch between those at will.
+
+        # Create a python 3 conda environment with the full set 
+        # of anaconda packages (jupyter, numpy, pandas, ...)
+        conda create --name ds100 python=3 anaconda 
+
+        # Switch to the ds100 environment
+        source activate ds100
+
+        # Install the packages for ds100
+        conda install -n ds100 
+        pip install datascience okpy
+
+   From now on, you can switch to the `ds100` env with `source activate ds100`,
+   and switch back to the default env with `source deactivate`.
+
 
 You may remove the `install_anaconda.sh` script now if you'd like since it's
 quite large.
@@ -122,14 +116,13 @@ scratch.
    might have another that uses Python 2. With a conda environment, you can
    switch between those at will.
 
-        # Create a conda env called ds100 that uses python 3.5
-        conda create --name ds100 python=3.5
+        # Create a conda env called ds100 that uses python 3
+        conda create --name ds100 python=3 anaconda
 
         # Switch to the ds100 environment
         activate ds100
 
         # Install the packages for ds100
-        conda install -n ds100 jupyter pandas numpy matplotlib scikit-learn seaborn scikit-image
         pip install datascience okpy
 
    From now on, you can switch to the `ds100` env with `activate ds100`,
@@ -190,14 +183,13 @@ For other distributions of Linux, substitute the available package manager.
    might have another that uses Python 2. With a conda environment, you can
    switch between those at will.
 
-        # Create a conda env called ds100 that uses python 3.5
-        conda create --name ds100 python=3.5
+        # Create a conda env called ds100 that uses python 3
+        conda create --name ds100 python=3 anaconda
 
         # Switch to the ds100 environment
         source activate ds100
 
         # Install the packages for ds100
-        conda install -n ds100 jupyter pandas numpy matplotlib scikit-learn seaborn scikit-image
         pip install datascience okpy
 
    From now on, you can switch to the `ds100` env with `source activate ds100`,
