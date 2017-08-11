@@ -10,12 +10,6 @@ order: 1
 
 <!-- # DS100: Principles & Techniques of Data Science -->
 
-<div class="container-fluid">
-<div class="row">
-<div markdown="1" class="col-sm-9">
-
-
-
 Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. 
 This intermediate level class bridges between [Data8](http://data8.org/fa16/) and upper division computer science and statistics courses as well as methods courses in other fields. 
 In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​
@@ -29,16 +23,11 @@ This class is listed as [STAT C100](http://classes.berkeley.edu/content/2017-fal
 * **When:** Lectures Tuesdays and Thursdays from 11:00AM to 12:30PM
 * **Where:** [Evans 10](http://www.berkeley.edu/map?evans) 
 * **What:** *Last semester's* [lecture schedule](http://www.ds100.org/sp17/syllabus)
+* **Section and Lab:** The section and lab assignments will be obtained optimally using a [linear program](https://en.wikipedia.org/wiki/Assignment_problem).  To get the best assignment please complete the following [Google Form](https://goo.gl/forms/uGf0qhF2rPF8inRl2). 
 * **News:** We will post updates about the class on [Piazza](https://piazza.com/berkeley/fall2017/ds100/home) 
 
 
 
-</div>
-<div class="col-md-3">
-<img src="{{ 'assets/images/lifecycle3_cropped.png' | absolute_url }}" alt="Lifecycle Logo" style="height: 200px"/>
-</div>
-</div>
-</div>
 
 <!-- 
 

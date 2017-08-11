@@ -103,7 +103,7 @@ In this lecture we provide an overview of the class, discuss what it means to be
 <!-- ######################################################### -->
 {% include syllabus_entry dates=dates %}
 
-### Data Generalization [Nolan]
+### Data Generation [Nolan]
 
 Fundamentally, (data) science is the study of using data to learn about the world and solve problems.  However, how and what data is collected can have a profound impact on what we can learn and the problems we can solve.   In this lecture we will begin to explore various mechanisms for data collection and their implications on our ability to generalize.  In particular we will discuss differences between census, surveys, controlled experiments, and observational studies.  We will highlight the power of simple randomization and the fallacies of data scale.
 
@@ -207,11 +207,16 @@ A key step in inference is often answering a question about the world.  Are stud
 
 ### Least Squares Linear Regression [Gonzalez]
 
+Modeling the relationships between variables is a common task in data science and perhaps one of the most widely used models is linear regression.  In this lecture we introduce least squares linear regression through the lens of empirical risk minimization. 
+
+
 
 <!-- ######################################################### -->
 {% include syllabus_entry dates=dates %}
 
-### Least Squares Linear Regression Continued [Gonzalez]
+### Prediction Bias and Variance [Gonzalez]
+
+In this lecture we continue our introduction to least square linear regression and provide a formal analysis of the bias and variance as it relates to the least squares objective.
 
 
 
@@ -229,7 +234,98 @@ A key step in inference is often answering a question about the world.  Are stud
 
 
 
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
 
+### Introduction to SQL and the Relational Model [Gonzalez]
+
+SQL is the most widely used language for accessing and manipulating data.  In this lecture we introduce the SQL language and more broadly the Relational Model of data.  We will describe some of the basic SQL operations and provide some motivation behind the relational model of tabular data.
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### More Advanced SQL [Gonzalez]
+
+In this lecture we continue to dig into more advanced SQL expressions.  We will introduce common table expressions, group by, and join operations. 
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Feature Engineering [Gonzalez]
+
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Overfitting [Gonzalez]
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Regularization [Gonzalez]
+
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Classification [Nolan]
+
+
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Method of Maximum Likelihood [Nolan]
+
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Logistic Regression [Nolan]
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Gradient Descent [Nolan]
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Bagging [Nolan]
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### TBD 
+
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+<h2> Holiday!! </h2>
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Big Data Ecosystem [Gonzalez]
+
+
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+### Spark [Gonzalez]
 
 
 
@@ -248,6 +344,10 @@ A key step in inference is often answering a question about the world.  Are stud
 
 
 
+<!-- ######################################################### -->
+{% include syllabus_entry dates=dates %}
+
+<center><h3> Study! </h3></center>
 
 
 <!-- ######################################################### -->
