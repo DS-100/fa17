@@ -10,18 +10,15 @@ order: 4
 
 Updated grading policy coming soon!
 
-<!-- The following is a _tentative_ grading policy and may change slightly as circumstances dictate. 
+There will be 10 challenging week long projects (homework).  Projects must be completed individually and will mix programming and short answer questions.  At the end of each week of instruction we will have an online multiple choice quiz that will help you stay up-to-date with lecture materials. Labs assignments will be graded for completion and are intended to help with the projects.
 
-There will be 7 challenging homeworks assignments.  Homeworks must be completed individually and will mix programming and short answer questions.  At the end of each week of instruction we will have an online multiple choice quiz that will help you stay up-to-date with lecture materials. Labs assignments will be graded for completion and are intended to help with the homework assignments.
-
-* 40% Homeworks
+* 40% Projects
 * 13% Vitamins
 * 7% Labs
 * 15% Midterm
 * 25% Final
 
 In addition, active participation on Piazza and in class may positively affect your final grade.
- -->
 
 ### On Time Policy (try not to be late)
 
