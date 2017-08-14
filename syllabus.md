@@ -105,7 +105,7 @@ In this lecture we provide an overview of the class, discuss what it means to be
 
 ### Data Generation [Nolan]
 
-Fundamentally, (data) science is the study of using data to learn about the world and solve problems.  However, how and what data is collected can have a profound impact on what we can learn and the problems we can solve.   In this lecture we will begin to explore various mechanisms for data collection and their implications on our ability to generalize.  In particular we will discuss differences between census, surveys, controlled experiments, and observational studies.  We will highlight the power of simple randomization and the fallacies of data scale.
+Fundamentally, (data) science is the study of using data to learn about the world and solve problems.  However, how and what data is collected can have a profound impact on what we can learn and the problems we can solve.   In this lecture, we will begin to explore various mechanisms for data collection and their implications on our ability to generalize.  In particular we will discuss differences between census, surveys, controlled experiments, and observational studies.  We will highlight the power of simple randomization and the fallacies of data scale.
 
 
 
