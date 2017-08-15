@@ -96,7 +96,7 @@ The actual lectures.  Dates are rendered automatically using Jekyll
 
 In this lecture we provide an overview of the class, discuss what it means to be a data scientist by examining recent surveys of data scientists, and then introduce the data science lifecycle spanning question formation, data acquisition and cleaning, exploratory data analysis and visualization, and finally prediction and inference.
 
-#### Project 1 Released.
+#### Homework 1 Released: Python Refresher
 
 
 
@@ -128,6 +128,7 @@ While data comes in many forms, most data analysis are done on tabular data Mast
 Whether collected by you or obtained from someone else, raw data is seldom ready for immediate analysis.  Through exploratory data analysis we can often discover important anomalies, identify limitations in the collection process, and better inform subsequent goal oriented analysis.  In this lecture we will discuss how to identify and correct common data anomalies and their implications on future analysis.  We will also discuss key properties of data including structure, granularity, faithfulness, temporality and scope and how these properties can inform how we prepare, analyze, and visualize data.
 
 
+#### Homework 2 Released: Food Safety Data Cleaning and EDA
 
 
 <!-- ######################################################### -->
@@ -146,6 +147,8 @@ Whether in documents, tweets, or records in a table, text data is ubiquitous and
 ### Visualization and Communication [Nolan]
 
 A large fraction of the human brain is devoted to visual perception.   As a consequence, visualization is a critical tool in both exploratory data analysis and communicating complex relationships in data.   However, making informative and clear visualizations of complex concepts can be challenging.  In this lecture, we will explore good and bad visualizations and describe how to choose visualizations for various kinds of data and goals.  
+
+#### Homework 3 Released: Food Safety Text Analysis and Mapping
 
 <!-- 
 ##### Lecture Notes:
@@ -170,6 +173,8 @@ Often directly visualizing data and relationships can result in less informative
 
 The statistician (and data scientist ahead of his time) George Box once wrote “Essentially, all models are wrong, but some are useful.”  A key step in data science is developing models that capture the basic essential patterns in data and whose parametric shape can provide inferential insight and enable prediction.  Data scientists build models from basic distributions to describe ever increasingly complex phenomena.  In this lecture we will begin to introduce basic statistical distributions and discuss how to fit these distributions to data.  We begin to discuss the art of model design.
 
+#### Homework 4 Released: Bike Sharing and Multivariate Visualization
+
 
 
 <!-- ######################################################### -->
@@ -190,7 +195,7 @@ How do we characterize a model estimation procedure?  In this lecture we will co
 
 A key step in inference is often answering a question about the world.  Are students more likely to succeed if they study?  Answering these inferential questions is hypothesis testing.  In this lecture we will examine a collection non-parametric hypothesis tests.  These powerful procedures build on the basic idea of random simulation to help quantify our certainty in a particular conclusion.  In the process of using these procedures we will also touch on the challenges of false discovery and multiple hypothesis testing.
 
-
+#### Project 1 Released: Twitter Analysis
 
 <!-- ######################################################### -->
 {% include syllabus_entry dates=dates %}
