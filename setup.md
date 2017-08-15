@@ -35,14 +35,8 @@ order: 2
    Verify your installation by making sure `brew --version` doesn't error at
    your terminal.
 
-2. Now, use `brew` to install the latest version of `git` by running:
 
-        brew install git
-
-   Ensure that `git` is installed by running `git --version`. The version
-   should be 2.5.0 or higher.
-
-3. Download and install Anaconda:
+2. Download and install Anaconda:
 
         # Uses curl to download the installation script
         curl https://repo.continuum.io/archive/Anaconda3-4.4.0-MacOSX-x86_64.sh > miniconda.sh
@@ -52,7 +46,7 @@ order: 2
 
    Ensure the installation worked by running `conda --version`.
 
-4. Run these commands to create a new [conda environment][env]. Each conda
+3. Run these commands to create a new [conda environment][env]. Each conda
    environment has its own package versions. This allows us to switch between
    package versions easily. For example, this class uses Python 3, but you
    might have another that uses Python 2. With a conda environment, you can
@@ -64,10 +58,6 @@ order: 2
 
         # Switch to the ds100 environment
         source activate ds100
-
-        # Install the packages for ds100
-        conda install -n ds100 
-        pip install datascience okpy
 
    From now on, you can switch to the `ds100` env with `source activate ds100`,
    and switch back to the default env with `source deactivate`.
