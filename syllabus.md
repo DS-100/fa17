@@ -2,8 +2,6 @@
 layout: page
 title: "Syllabus"
 description: "Course Syllabus"
-group: navigation
-order: 2
 ---
 
 This syllabus is still under development and is subject to change.

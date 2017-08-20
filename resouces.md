@@ -2,8 +2,6 @@
 layout: page
 title: "Resources"
 description: "Additional Reading Materials"
-group: navigation
-order: 3
 ---
 
 

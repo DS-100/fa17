@@ -2,8 +2,6 @@
 layout: page
 title: "Grading"
 description: "Grading Policy"
-group: navigation
-order: 4
 ---
 
 

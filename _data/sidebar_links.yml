@@ -6,5 +6,7 @@
   url: /setup
 - name: Grading
   url: /grading
+- name: Assignments
+  url: /assignments
 - name: Resources
   url: /resources

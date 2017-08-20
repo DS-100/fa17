@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Home
-tagline: Principles and Techniques of Data Science
+title: "Principles and Techniques of Data Science"
 ---
 
 <!-- # DS100: Principles & Techniques of Data Science -->
 
 Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world.
-This intermediate level class bridges between [Data8](http://data8.org/fa16/) and upper division computer science and statistics courses as well as methods courses in other fields.
+This intermediate level class bridges between [Data8](http://data8.org) and upper division computer science and statistics courses as well as methods courses in other fields.
 In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​
 Through a strong emphasizes on data centric computing, quantitative critical thinking, and exploratory data analysis this class covers key principles and techniques of data science.
 These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.
@@ -32,7 +31,7 @@ If you have enrolled in the wait-list please complete the following  <a href="ht
 
 ## Office Hours, Section, and Lab Schedule
 
-<iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_8134mn9ocmcqncv8g6vj9fr3sg%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_8134mn9ocmcqncv8g6vj9fr3sg%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="650" height="600" frameborder="0" scrolling="no"></iframe>
 
 For official holidays see the [academic calendar](http://registrar.berkeley.edu/sites/default/files/pdf/UCB_AcademicCalendar_2017-18_V3.pdf).
 

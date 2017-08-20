@@ -2,8 +2,6 @@
 layout: page
 title: "Assignments"
 description: "Labs and Projects"
-group: navigation
-order: 6
 ---
 
 
