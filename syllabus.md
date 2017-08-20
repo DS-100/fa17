@@ -5,10 +5,8 @@ description: "Course Syllabus"
 group: navigation
 order: 2
 ---
-{% include JB/setup %}
 
-
-This syllabus is still under development and is subject to change.  
+This syllabus is still under development and is subject to change.
 
 
 <table class="table table-striped">
@@ -34,9 +32,9 @@ This syllabus is still under development and is subject to change.
 import datetime
 import pandas as pd
 
-d1 = datetime.date(2017,8,24) 
+d1 = datetime.date(2017,8,24)
 d2 = datetime.date(2017,12,14)
-days = pd.date_range(d1,d2) 
+days = pd.date_range(d1,d2)
 
 for d in days[(days.dayofweek == 1) | (days.dayofweek == 3)]:
      print(str(d.month) + "/" + str(d.day) + "/" + str(d.year))
@@ -146,11 +144,11 @@ Whether in documents, tweets, or records in a table, text data is ubiquitous and
 
 ### Visualization and Communication [Nolan]
 
-A large fraction of the human brain is devoted to visual perception.   As a consequence, visualization is a critical tool in both exploratory data analysis and communicating complex relationships in data.   However, making informative and clear visualizations of complex concepts can be challenging.  In this lecture, we will explore good and bad visualizations and describe how to choose visualizations for various kinds of data and goals.  
+A large fraction of the human brain is devoted to visual perception.   As a consequence, visualization is a critical tool in both exploratory data analysis and communicating complex relationships in data.   However, making informative and clear visualizations of complex concepts can be challenging.  In this lecture, we will explore good and bad visualizations and describe how to choose visualizations for various kinds of data and goals.
 
 #### Homework 3 Released: Food Safety Text Analysis and Mapping
 
-<!-- 
+<!--
 ##### Lecture Notes:
 * Slides ([pptx](https://drive.google.com/open?id=0B7gkaDYGT5X5LUVVa1JuM3RZeTQ), [pdf](https://drive.google.com/open?id=0Bze55lezLJhITWROdV9PNEE2RGs), [pdf 6up](https://drive.google.com/open?id=0Bze55lezLJhISVpKUU95VmFRcUU))
  -->
@@ -212,7 +210,7 @@ A key step in inference is often answering a question about the world.  Are stud
 
 ### Least Squares Linear Regression [Gonzalez]
 
-Modeling the relationships between variables is a common task in data science and perhaps one of the most widely used models is linear regression.  In this lecture we introduce least squares linear regression through the lens of empirical risk minimization. 
+Modeling the relationships between variables is a common task in data science and perhaps one of the most widely used models is linear regression.  In this lecture we introduce least squares linear regression through the lens of empirical risk minimization.
 
 
 
@@ -252,7 +250,7 @@ SQL is the most widely used language for accessing and manipulating data.  In th
 
 ### More Advanced SQL [Gonzalez]
 
-In this lecture we continue to dig into more advanced SQL expressions.  We will introduce common table expressions, group by, and join operations. 
+In this lecture we continue to dig into more advanced SQL expressions.  We will introduce common table expressions, group by, and join operations.
 
 
 <!-- ######################################################### -->
@@ -311,7 +309,7 @@ In this lecture we continue to dig into more advanced SQL expressions.  We will 
 <!-- ######################################################### -->
 {% include syllabus_entry dates=dates %}
 
-### TBD 
+### TBD
 
 
 
@@ -358,8 +356,8 @@ In this lecture we continue to dig into more advanced SQL expressions.  We will 
 <!-- ######################################################### -->
 {% include syllabus_entry dates=dates %}
 
-# Final Exam 
-The final exam is currently in [exam group 13](http://registrar.berkeley.edu/sis-SC-message) and therefore will be from 8:00AM to 11:00AM on Thursday 12/14/2017.  
+# Final Exam
+The final exam is currently in [exam group 13](http://registrar.berkeley.edu/sis-SC-message) and therefore will be from 8:00AM to 11:00AM on Thursday 12/14/2017.
 
 
 

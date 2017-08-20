@@ -6,12 +6,11 @@ group: navigation
 order: 3
 ---
 
-{% include JB/setup %}
 
 
 We will be posting all lecture materials on the course syllabus.  In addition, they will also be listed in the following publicly visible [Google drive folder](https://drive.google.com/drive/folders/0Bze55lezLJhIM3BBRW0wc0lXQWs).
 
-Here is a collection of resources that will help you learn more about various concepts and skills covered in the class.  Learning by reading is a key part of being a well rounded data scientist.  We will not assign mandatory reading but instead encourage you to look at these _and other_ materials.  If you find something helpful, post it on Piazza, and consider contributing it to the course website.  
+Here is a collection of resources that will help you learn more about various concepts and skills covered in the class.  Learning by reading is a key part of being a well rounded data scientist.  We will not assign mandatory reading but instead encourage you to look at these _and other_ materials.  If you find something helpful, post it on Piazza, and consider contributing it to the course website.
 
 
 You can send us changes to the course website by [forking](https://help.github.com/articles/fork-a-repo/) and sending a [pull request](https://help.github.com/articles/about-pull-requests/) to the [course website github repository](https://github.com/DS-100/fa17).  You will then become part of the history of the DS100 class at Berkeley.
@@ -32,11 +31,11 @@ As a data scientist you will often need to search for information on various lib
 
 * **Plotting:**
   * [matplotlib.pyplot tutorial](http://matplotlib.org/users/pyplot_tutorial.html#pyplot-tutorial): This short tutorial provides an overview of the basic plotting utilities we will be using.
-  * [seaborn](http://seaborn.pydata.org/tutorial.html): The Seaborn library has some nice additional visualization functions that we may use occasionally.  
+  * [seaborn](http://seaborn.pydata.org/tutorial.html): The Seaborn library has some nice additional visualization functions that we may use occasionally.
 
 * **Pandas:**
   * [The Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/master/cookbook/):  This provides a nice overview of some of the basic Pandas functions.  However, it is slightly out of date.
-  * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas) A set of lessons providing an overview of the Pandas library.  
+  * [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas) A set of lessons providing an overview of the Pandas library.
   * [Python for Data Science](http://wavedatalab.github.io/datawithpython/index.html) Another set of notebook demonstrating Pandas functionality.
 
 * **Git:**

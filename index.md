@@ -1,17 +1,13 @@
 ---
-layout: header_page
-title: DS100 Fall 2017
+layout: page
+title: Home
 tagline: Principles and Techniques of Data Science
-order: 1
 ---
-{% include JB/setup %}
-
-
 
 <!-- # DS100: Principles & Techniques of Data Science -->
 
-Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. 
-This intermediate level class bridges between [Data8](http://data8.org/fa16/) and upper division computer science and statistics courses as well as methods courses in other fields. 
+Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world.
+This intermediate level class bridges between [Data8](http://data8.org/fa16/) and upper division computer science and statistics courses as well as methods courses in other fields.
 In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​
 Through a strong emphasizes on data centric computing, quantitative critical thinking, and exploratory data analysis this class covers key principles and techniques of data science.
 These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.
@@ -21,15 +17,15 @@ This class is listed as [STAT C100](http://classes.berkeley.edu/content/2017-fal
 ### Important Information:
 
 * **When:** Lectures Tuesdays and Thursdays from 11:00AM to 12:30PM
-* **Where:** [Evans 10](http://www.berkeley.edu/map?evans) 
+* **Where:** [Evans 10](http://www.berkeley.edu/map?evans)
 * **What:** *Last semester's* [lecture schedule](http://www.ds100.org/sp17/syllabus)
-* **Section and Lab:** The section and lab assignments will be obtained optimally using a [linear program](https://en.wikipedia.org/wiki/Assignment_problem).  To get the best assignment please complete the following [Google Form](https://goo.gl/forms/uGf0qhF2rPF8inRl2). 
-* **News:** We will post updates about the class on [Piazza](https://piazza.com/berkeley/fall2017/ds100/home) 
+* **Section and Lab:** The section and lab assignments will be obtained optimally using a [linear program](https://en.wikipedia.org/wiki/Assignment_problem).  To get the best assignment please complete the following [Google Form](https://goo.gl/forms/uGf0qhF2rPF8inRl2).
+* **News:** We will post updates about the class on [Piazza](https://piazza.com/berkeley/fall2017/ds100/home)
 
 
 
 
-<!-- 
+<!--
 
 If you have enrolled in the wait-list please complete the following  <a href="https://goo.gl/forms/Ku5cu7L7cUbSaTKc2">Background Survey</a> we will use this to help in admitting students into the class.  Please sign up for Piazza to follow updates on the wait list.
  -->

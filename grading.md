@@ -6,13 +6,12 @@ group: navigation
 order: 4
 ---
 
-{% include JB/setup %}
 
 Updated grading policy coming soon!
 
 There will be 2 challenging projects and 6 homework assignments.  Assignments must be completed individually and will mix programming and short answer questions.  At the end of each week of instruction, we will have an online multiple choice quiz (vitamin) that will help you stay up-to-date with lecture materials. Labs assignments will be graded for completion and are intended to help with the projects.
 
-* 24% Homeworks (6 assignments, 4% each) 
+* 24% Homeworks (6 assignments, 4% each)
 * 16% Projects (2 projects, 8% each)
 * 5% Vitamins
 * 10% Labs
@@ -24,10 +23,10 @@ Participation is baed on answering questions with clickers in lecture.  Full cre
 
 ### On Time Policy (try not to be late)
 
-Each student gets an extension budget of 5 days worth of slip-time. 
-You can use the extension on homework assignments during the semester. 
-Do not plan to use your slip-time; it is there for unforeseen circumstances! 
-After you have used up your slip-time budget, any assignment handed in late will be marked off 20% per day late, rounded up to the nearest integer number of days. 
+Each student gets an extension budget of 5 days worth of slip-time.
+You can use the extension on homework assignments during the semester.
+Do not plan to use your slip-time; it is there for unforeseen circumstances!
+After you have used up your slip-time budget, any assignment handed in late will be marked off 20% per day late, rounded up to the nearest integer number of days.
 No assignment will be accepted more then 5 days late.
 
 

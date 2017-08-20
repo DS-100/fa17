@@ -6,7 +6,6 @@ group: navigation
 order: 2
 ---
 
-{% include JB/setup %}
 
 ## Contents
 
@@ -52,9 +51,9 @@ order: 2
    might have another that uses Python 2. With a conda environment, you can
    switch between those at will.
 
-        # Create a python 3 conda environment with the full set 
+        # Create a python 3 conda environment with the full set
         # of anaconda packages (jupyter, numpy, pandas, ...)
-        conda create --name ds100 python=3 anaconda 
+        conda create --name ds100 python=3 anaconda
 
         # Switch to the ds100 environment
         source activate ds100
