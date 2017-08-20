@@ -4,13 +4,13 @@
 <aside class="announcements">
   <!-- We'll only display the first announcement by default -->
   <div class="announcement">
-    <strong class="announcement__date">{{ first.date }}</strong>
+    <strong class="announcement__date">Announcements — {{ first.date }}</strong>
     {{ first.text | markdownify }}
   </div>
 
   {% for post in rest %}
     <div class="announcement js-hidden">
-      <strong class="announcement__date">{{ post.date }}</strong>
+      <strong class="announcement__date">Announcements — {{ post.date }}</strong>
       {{ post.text | markdownify }}
     </div>
   {% endfor %}
