@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Syllabus"
-description: "Course Syllabus"
 ---
 
 This syllabus is still under development and is subject to change.

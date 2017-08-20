@@ -47,6 +47,7 @@ body {
    */
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -95,7 +96,8 @@ body {
 }
 
     .sidebar__title {
-      margin-bottom: 20px;
+      /* Don't actually display this until we get enough screen space. */
+      display: none;
     }
 
 .navigation {
@@ -106,6 +108,7 @@ body {
 }
 
     .navigation__link {
+      margin: 0.2rem;
       color: var(--sidebar-text-color);
       font-weight: 700;
     }
@@ -117,6 +120,7 @@ body {
   }
 
       .sidebar__title {
+        display: block;
         margin-bottom: 50px;
       }
 
