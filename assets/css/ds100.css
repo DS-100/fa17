@@ -47,7 +47,9 @@ body {
    */
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+
+  /* Set height to 100vh so the sidebar can stay in place */
+  height: 100vh;
 
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -61,6 +63,10 @@ body {
     font-size: 1.2rem;
     line-height: 1.6;
   }
+}
+
+.announcements-and-content {
+  overflow-y: scroll;
 }
 
 .content {
