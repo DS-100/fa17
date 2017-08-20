@@ -1,0 +1,12 @@
+<aside class="sidebar">
+  <hgroup class="sidebar__title">
+    <h1>DS100 Fa17</h1>
+    <p><small>Joey Gonzalez and Deb Nolan</small></p>
+  </hgroup>
+
+  <nav class="navigation">
+    {% for link in site.data.sidebar_links %}
+      <a class="navigation__link" href="{{ link.url }}">{{ link.name }}</a>
+    {% endfor %}
+  </nav>
+</aside>
