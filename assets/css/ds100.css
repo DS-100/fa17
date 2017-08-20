@@ -1,0 +1,146 @@
+/**
+ * DS100 CSS
+ *
+ * This file contains all the styles for the website aside from the CSS resets
+ * in /vendor/css/poole.css.
+ *
+ * Note that we make heavy use of CSS variables and CSS flexbox to implement
+ * the website layout since the CSS becomes significantly easier to write and
+ * understand. Because of this, the site won't layout properly in IE and other
+ * older browser versions. However, Jupyter notebooks won't render properly in
+ * older browser versions anyway, so we feel fine about using flexbox.
+ *
+ * Table of contents (use Cmd+F to jump to the relevant section):
+ *
+ * [1] CSS Variables
+ * [2] Site-wide styles
+ * [3] Sidebar
+ * [4] Announcements
+ */
+
+
+/******************************************************************************
+ * [1] CSS Variables
+ *****************************************************************************/
+:root {
+  --content-max-width: 700px;
+
+  --bg-color: #f6f6f6;
+  --text-color: #111;
+
+  --sidebar-bg-color: #003A70;
+  --sidebar-text-color: #fff;
+}
+
+/******************************************************************************
+ * [2] Site-wide styles
+ *****************************************************************************/
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  /**
+   * Using flexbox, we can arrange the sidebar on top of the content on small
+   * screens...
+   */
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+@media (min-width: 45rem) {
+  body {
+    /* ...and then put the sidebar on the left on larger screens */
+    flex-direction: row;
+
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
+
+.content {
+  width: 100%;
+  max-width: var(--content-max-width);
+  flex-basis: 75%;
+
+  margin: auto;
+  padding: 1rem;
+}
+
+/******************************************************************************
+ * [3] Sidebar
+ *****************************************************************************/
+
+.sidebar {
+  flex-basis: 25%;
+
+  background-color: var(--sidebar-bg-color);
+  color: var(--sidebar-text-color);
+
+  padding: 1rem;
+  text-align: center;
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
+  color: var(--sidebar-text-color);
+}
+
+    .sidebar__title {
+      margin-bottom: 20px;
+    }
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+    .navigation__link {
+      color: var(--sidebar-text-color);
+      font-weight: 700;
+    }
+
+@media (min-width: 45rem) {
+  .sidebar {
+    /* Give the sidebar some space when screen is bid*/
+    flex-basis: 250px;
+  }
+
+      .sidebar__title {
+        margin-bottom: 50px;
+      }
+
+  .navigation {
+    flex-direction: column;
+  }
+}
+
+/******************************************************************************
+ * [4] Announcements
+ *****************************************************************************/
+.announcements {
+  width: 100%;
+  max-width: var(--content-max-width);
+
+  background-color: var(--sidebar-bg-color);
+  color: var(--sidebar-text-color);
+
+  padding: 1rem;
+}
+
+.announcement__date {
+  color: var(--sidebar-text-color);
+}
+
+.js-hidden {
+  display: none;
+}
