@@ -1,7 +1,7 @@
 {% assign lecture_counter = 1 %}
 
 {% for lecture in site.data.lectures %}
-  {% assign week_begin = lecture_counter | plus: 1 | modulo: 2 %}
+  {% assign is_week_begin = lecture_counter | plus: 1 | modulo: 2 %}
   {% assign week = lecture_counter | plus: 1 | divided_by: 2.0 | ceil %}
 
   <tr class="lecture"
@@ -14,7 +14,7 @@
       <td class="lecture__week" id="lecture-week-{{week}}">
         {{ week }}
       </td>
-    {% elsif week_begin == 1 && lecture_counter != 1 %}
+    {% elsif is_week_begin == 1 && lecture_counter != 1 %}
       <td class="lecture__week" id="lecture-week-{{week}}" rowspan="2">
         {{ week }}
       </td>
@@ -41,28 +41,3 @@
   </tr>
   {% assign lecture_counter = lecture_counter | plus: 1 %}
 {% endfor %}
-
-<!-- {% if include.dates %}
-  {% if lecture_counter == 1 %}
-  <tr style="border-top: solid thick;">
-    <td style="background:gray; color:white; font-size:16pt; vertical-align:middle;" id="week_{{week}}">
-      <center>{{ week }}</center>
-    </td>
-  {% elsif week_begin == 1 %}
-  <tr style="border-top: solid thick;">
-    <td rowspan="2" style="background:gray; color:white; font-size:16pt; vertical-align:middle;" id="week_{{week}}">
-      <center>{{ week }}</center>
-    </td>
-  {% else %}
-  <tr>
-  {% endif %}
-
-  <th id="counter_{{lecture_date}}_{{week}}"> {{ lecture_counter }} </th>
-  <td> {{ lecture_date }} </td>
-
-  {% assign lecture_counter = lecture_counter | plus: 1 %}
-  <td markdown="1">
-{% endif %}
-
-
- -->
