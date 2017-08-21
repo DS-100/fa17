@@ -13,7 +13,6 @@ description: "Instructions to set up your data science environment."
   - [Linux](#linux)
 - [Working on assignments](#working-on-assignments)
 - [Opening notebooks](#opening-notebooks)
-- [Verifying your installation](#verifying-your-installation)
 
 ## OSX
 
@@ -74,10 +73,10 @@ scratch.
 
 ### Installing Anaconda:
 
-1. Visit https://www.continuum.io/downloads#windows and download the installer
-   for Python 3.5. Download the 64-bit installer if your computer is 64-bit
-   (more likely), the 32-bit installer if not. You can Google how to check
-   whether your computer is 64 or 32 bit.
+1. Visit [the Anaconda website](https://www.continuum.io/downloads#windows) and
+   download the installer for Python 3.5. Download the 64-bit installer if your
+   computer is 64-bit (more likely), the 32-bit installer if not. You can
+   Google how to check whether your computer is 64 or 32 bit.
 
 2. Leave all the options as default (install for all users, in the default
    location). Make sure both of these checkboxes are checked:
@@ -114,26 +113,6 @@ scratch.
 
    From now on, you can switch to the `ds100` env with `activate ds100`,
    and switch back to the default env with `deactivate`.
-
-### Installing `git`:
-
-1. You might already have `git` installed. Type `git` at the Anaconda Prompt.
-   If that works, then you can skip these steps. Otherwise, you'll something
-   that looks like:
-
-   ![git1](https://cloud.githubusercontent.com/assets/2468904/21345450/244d2cae-c655-11e6-9a3f-1dee57be0ed6.PNG)
-
-2. At the anaconda prompt, type:
-
-        # Use anaconda to install git
-        conda install -c anaconda git -y
-
-3. Now, verify that `git` is installed by typing `git --version` on the command
-   line. You should see output that looks like:
-
-   ![git4](https://cloud.githubusercontent.com/assets/2468904/21345451/2457579c-c655-11e6-8ece-d760cf548749.PNG)
-
-[**Click here to continue to the next part of the setup.**](#working-on-assignments)
 
 ## Linux
 
@@ -182,18 +161,6 @@ For other distributions of Linux, substitute the available package manager.
    From now on, you can switch to the `ds100` env with `source activate ds100`,
    and switch back to the default env with `source deactivate`.
 
-6. Now, install the latest version of `git`:
-
-        sudo add-apt-repository ppa:git-core/ppa
-        sudo apt-get update
-        sudo apt-get install git
-
-   Ensure that `git` is installed by running `git --version`. The version
-   should be 2.5.0 or higher.
-
-You may remove the `install_anaconda.sh` script now if you'd like since it's
-quite large.
-
 [env]: http://conda.pydata.org/docs/using/envs.html
 
 [**Click here to continue to the next part of the setup.**](#working-on-assignments)
@@ -202,78 +169,37 @@ quite large.
 
 These instructions are the same for OSX, Windows, and Linux.
 
-Now, let's download the course materials so you can start working on
-assignments.
+To work on assignments, you should download the assignment zipfile (looks like
+`hw1.zip`). Then you can unzip the files into a folder of your choosing. The
+staff recommend that you create a parent folder that holds all the assignments
+for this class for easier access.
 
-1. Visit https://github.com/ and log in / create an account if you don't
-   already have one.
-2. Visit https://ds100-repo.herokuapp.com/ and fill out the form to create a
-   private repo to hold all of your work this semester. Bookmark the GitHub URL
-   because you'll be using it soon.
-3. In your terminal, navigate to the directory you want to put the DS100
-   assignments in.
-4. Run the following commands. Replace `<URL_OF_YOUR_PRIVATE_REPO>` with the
-   URL of your repo (eg. `https://github.com/DS-100/s0001`).
+Remember the location of your assignment files because you'll need to navigate
+to the folder to open the notebook.
 
-        # Download the repo
-        git clone https://github.com/DS-100/sp17-materials
+You'll notice that all the assignments for this class have a folder structure
+that looks something like:
 
-        # Enter the repo folder
-        cd sp17-materials
+```
+hw1/
+  func.png
+  ok_tests/
+  images/
+  hw1.ipynb
+  hw1.ok
+  something_cool.csv
+```
 
-        # Rename the origin remote to ds100
-        git remote rename origin ds100
-
-        # Set the origin remote to your repo
-        git remote add origin <URL_OF_YOUR_PRIVATE_REPO>
-
-This should download a copy of the course materials (including this homework)
-onto your personal computer and set up `git` remotes so that you can pull
-released assignments from the staff and push your personal work to your private
-repo.
-
-Now, when you want to pull new/updated assignments, you can run:
-
-    # Make a work-in-progress commit since git doesn't allow pulling when you
-    # have uncommited modifications
-    git commit -am "WIP"
-
-    # Get updates from the course repo. The options here tell git to override
-    # any conflicts in the files with what you currently have so that your work
-    # is never erased.
-    git pull -s recursive -X ours --no-edit ds100 master
-
-And when you want to push your work to your private repo:
-
-    # Send updates to your personal private git repo
-    git push origin master
-
-To read up on how git remotes work, check out [this page from the `git`
-tutorials](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) and
-[this Stack Overflow post](http://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-origin-master/5617350#5617350).
-If you're still confused, Google your question or ask a TA.
+The file containing the actual assignment ends in `.ipynb` (short for IPython
+notebook). The other files are used for the assignment but you don't have to
+open them unless we ask you to.
 
 ## Opening notebooks
 
-To open Jupyter notebooks, you'll navigate to the `sp17-materials`
-directory and run:
+To open Jupyter notebooks, you'll navigate to parent directory of the
+assignment in your terminal and run:
 
     jupyter notebook
 
 This will automatically open the notebook interface in your browser. You can
 then browse to a notebook and open it.
-
-## Verifying your installation
-
-Finally, let's open a notebook that will check to see whether you've installed
-everything correctly.
-
-In your `sp17-materials` directory, ensure that you are in the `ds100` conda
-environment by running `source activate ds100` on OSX / Linux or `source
-activate` on Windows. Then, run `git pull ds100 master` and then `jupyter
-notebook`.
-
-Now, open the `test_setup.ipynb` notebook. If you've installed everything
-correctly, all the cells should run without error.
-
-Congrats! You've set up your computer for DS100 work.
