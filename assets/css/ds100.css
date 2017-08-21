@@ -40,7 +40,16 @@
  *****************************************************************************/
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* https://bitsofco.de/the-new-system-font-stack/ */
+  font-family: -apple-system,
+               BlinkMacSystemFont,
+               "Segoe UI",
+               Roboto,
+               Oxygen-Sans,
+               Ubuntu,
+               Cantarell,
+               "Helvetica Neue",
+               sans-serif;
 }
 
 body {
