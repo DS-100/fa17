@@ -16,6 +16,7 @@
  * [2] Site-wide styles
  * [3] Sidebar
  * [4] Announcements
+ * [5] Syllabux
  */
 
 
@@ -24,11 +25,12 @@
  *****************************************************************************/
 :root {
   --content-max-width: 700px;
+  --data-blue: #003A70;
 
   --bg-color: #f6f6f6;
   --text-color: #111;
 
-  --sidebar-bg-color: #003A70;
+  --sidebar-bg-color: var(--data-blue);
   --sidebar-text-color: #fff;
 }
 
@@ -65,7 +67,13 @@ body {
   }
 }
 
+ul {
+  /* Makes lists look a bit nicer in Chrome */
+  -webkit-padding-start: 20px;
+}
+
 .announcements-and-content {
+  width: 100%;
   overflow-y: scroll;
 }
 
@@ -75,16 +83,70 @@ body {
   flex-basis: 75%;
 
   margin: auto;
-  padding: 1rem;
+  padding: 0 1.5rem;
 }
+
+.content-wide {
+  width: 100%;
+  flex-basis: 75%;
+
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+/* Use this wrapper to embed a responsive iframe. Don't display these by default on mobile. */
+.embed-wrapper {
+  display: none;
+}
+
+@media (min-width: 45rem) {
+  .embed-wrapper {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+  }
+
+  .embed-wrapper iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.faculty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 1.5rem;
+}
+
+    .faculty__img {
+      height: 150px;
+      margin: 0 auto;
+    }
+
+@media (min-width: 45rem) {
+  .faculty {
+    flex-direction: row;
+  }
+
+  .faculty__item + .faculty__item {
+    margin-left: 2rem;
+  }
+}
+
 
 /******************************************************************************
  * [3] Sidebar
  *****************************************************************************/
 
 .sidebar {
-  flex-basis: 25%;
-
   background-color: var(--sidebar-bg-color);
   color: var(--sidebar-text-color);
 
@@ -140,7 +202,6 @@ body {
  *****************************************************************************/
 .announcements {
   width: 100%;
-  max-width: var(--content-max-width);
 
   background-color: var(--sidebar-bg-color);
   color: var(--sidebar-text-color);
@@ -148,10 +209,51 @@ body {
   padding: 1rem;
 }
 
-.announcement__date {
-  color: var(--sidebar-text-color);
+.announcement {
+  max-width: var(--content-max-width);
+  margin: auto;
+  /* Add extra padding here to match the page content */
+  padding: 0 1rem;
 }
+
+    .announcement__date {
+      color: var(--sidebar-text-color);
+    }
 
 .js-hidden {
   display: none;
+}
+
+/******************************************************************************
+ * [5] Syllabus
+ *****************************************************************************/
+.syllabus {
+
+}
+
+    .syllabus__header {
+      border-bottom: 5px solid var(--data-blue);
+    }
+
+.lecture:nth-child(even) {
+  border-top: 5px solid var(--data-blue);
+  background-color: #eee;
+}
+
+    .lecture__week,
+    .lecture__date {
+      text-align: center;
+    }
+
+    .lecture__assignment {
+      font-size: 1.3rem;
+    }
+
+.lecture--current .lecture__num {
+  background-color: orange;
+}
+
+.lecture__week--current {
+  background-color: var(--data-blue);
+  color: #fff;
 }
