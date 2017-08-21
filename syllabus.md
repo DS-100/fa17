@@ -25,7 +25,7 @@ This syllabus is still under development and is subject to change.
   <tbody>
 
   <!--
-  The actual lectures.  Dates are rendered automatically using Jekyll
+  The actual lecture rows. To add a lecture, edit _data/lectures.yml.
    -->
 
   {% include syllabus_entries.html %}
@@ -33,16 +33,9 @@ This syllabus is still under development and is subject to change.
   </tbody>
 </table>
 
-
 <!--
-
-A little script to highlight the week that is next
-
-There is currently a bug in this script which someone needs to fix.  When I wrote this script for my graduate seminar class we only had one lecture a week. We should modify the Jekyll code to render the syllabus with each row tagged so we can automatically identify the week and lecture day.
-
+Script to highlight the current lecture.
 -->
-
-
 
 <script type="text/javascript">
 const current_date = new Date();
@@ -60,22 +53,5 @@ for (let lecture of lectures) {
     break;
   }
 }
-
-// for (var i = 1; i < rows.length && !finished; i++) {
-//   var r = rows[i];
-//   if (r.id.startsWith("counter_")) {
-//     var fields = r.id.split("_")
-//     var week_div_id = "week_" + fields[2]
-//     var lecture_date = new Date(fields[1] + " 23:59:00")
-//     if (current_date <= lecture_date) {
-//       finished = true;
-//       r.style.background = "orange"
-//       r.style.color = "black"
-//       var week_td = document.getElementById(week_div_id)
-//       week_td.style.background = "#043361"
-//       week_td.style.color = "white"
-//     }
-//   }
-// }
 </script>
 

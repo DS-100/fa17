@@ -13,7 +13,7 @@
  * Table of contents (use Cmd+F to jump to the relevant section):
  *
  * [0] Imports
- * [1] CSS Variables
+ * [1] Variables
  * [2] Site-wide styles
  * [3] Reusable components
  * [4] Sidebar
@@ -29,18 +29,17 @@
 @import 'vendor/syntax';
 
 /******************************************************************************
- * [1] CSS Variables
+ * [1] Variables
  *****************************************************************************/
-:root {
-  --content-max-width: 700px;
-  --data-blue: #003A70;
+$content-max-width: 700px;
+$tablet-up: 45rem;
 
-  --bg-color: #f6f6f6;
-  --text-color: #111;
+$data-blue: #003A70;
+$bg-color: #f6f6f6;
+$text-color: #111;
 
-  --sidebar-bg-color: var(--data-blue);
-  --sidebar-text-color: #fff;
-}
+$sidebar-bg-color: $data-blue;
+$sidebar-text-color: #fff;
 
 /******************************************************************************
  * [2] Site-wide styles
@@ -70,11 +69,11 @@ body {
   /* Set height to 100vh so the sidebar can stay in place */
   height: 100vh;
 
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: $bg-color;
+  color: $text-color;
 }
 
-@media (min-width: 45rem) {
+@media (min-width: $tablet-up) {
   body {
     /* ...and then put the sidebar on the left on larger screens */
     flex-direction: row;
@@ -96,7 +95,7 @@ ul {
 
 .content {
   width: 100%;
-  max-width: var(--content-max-width);
+  max-width: $content-max-width;
   flex-basis: 75%;
 
   margin: auto;
@@ -111,6 +110,10 @@ ul {
   padding: 0 1.5rem;
 }
 
+.js-hidden {
+  display: none;
+}
+
 /******************************************************************************
  * [3] Reusable components
  *****************************************************************************/
@@ -120,7 +123,7 @@ ul {
   display: none;
 }
 
-@media (min-width: 45rem) {
+@media (min-width: $tablet-up) {
   .embed-wrapper {
     display: block;
     height: 0;
@@ -152,7 +155,7 @@ ul {
       margin: 0 auto;
     }
 
-@media (min-width: 45rem) {
+@media (min-width: $tablet-up) {
   .faculty {
     flex-direction: row;
   }
@@ -168,8 +171,8 @@ ul {
  *****************************************************************************/
 
 .sidebar {
-  background-color: var(--sidebar-bg-color);
-  color: var(--sidebar-text-color);
+  background-color: $sidebar-bg-color;
+  color: $sidebar-text-color;
 
   padding: 1rem;
   text-align: center;
@@ -181,7 +184,7 @@ ul {
 .sidebar h4,
 .sidebar h5,
 .sidebar h6 {
-  color: var(--sidebar-text-color);
+  color: $sidebar-text-color;
 }
 
     .sidebar__title {
@@ -198,11 +201,11 @@ ul {
 
     .navigation__link {
       margin: 0.2rem;
-      color: var(--sidebar-text-color);
+      color: $sidebar-text-color;
       font-weight: 700;
     }
 
-@media (min-width: 45rem) {
+@media (min-width: $tablet-up) {
   .sidebar {
     /* Give the sidebar some space when screen is bid*/
     flex-basis: 250px;
@@ -224,26 +227,22 @@ ul {
 .announcements {
   width: 100%;
 
-  background-color: var(--sidebar-bg-color);
-  color: var(--sidebar-text-color);
+  background-color: $sidebar-bg-color;
+  color: $sidebar-text-color;
 
   padding: 1rem;
 }
 
 .announcement {
-  max-width: var(--content-max-width);
+  max-width: $content-max-width;
   margin: auto;
   /* Add extra padding here to match the page content */
   padding: 0 1rem;
 }
 
     .announcement__date {
-      color: var(--sidebar-text-color);
+      color: $sidebar-text-color;
     }
-
-.js-hidden {
-  display: none;
-}
 
 /******************************************************************************
  * [6] Syllabus
@@ -253,11 +252,11 @@ ul {
 }
 
     .syllabus__header {
-      border-bottom: 5px solid var(--data-blue);
+      border-bottom: 5px solid $data-blue;
     }
 
 .lecture:nth-child(even) {
-  border-top: 5px solid var(--data-blue);
+  border-top: 5px solid $data-blue;
   background-color: #eee;
 }
 
@@ -275,6 +274,6 @@ ul {
 }
 
 .lecture__week--current {
-  background-color: var(--data-blue);
+  background-color: $data-blue;
   color: #fff;
 }
