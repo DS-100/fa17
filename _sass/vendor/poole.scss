@@ -185,7 +185,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -195,7 +195,7 @@ pre code {
   background-color: transparent;
 }
 .gist .gist-file .gist-data {
-  font-size: .8rem !important;
+  font-size: .8rem;
   line-height: 1.4;
 }
 .gist code {

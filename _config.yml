@@ -19,3 +19,6 @@ title: DS100 Fa17
 tagline: Principles and Techniques of Data Science
 
 baseurl: ~
+
+sass:
+  style: compressed

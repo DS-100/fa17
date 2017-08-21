@@ -12,6 +12,7 @@
  *
  * Table of contents (use Cmd+F to jump to the relevant section):
  *
+ * [0] Imports
  * [1] CSS Variables
  * [2] Site-wide styles
  * [3] Reusable components
@@ -20,6 +21,12 @@
  * [6] Syllabus
  */
 
+
+/******************************************************************************
+ * [0] Imports
+ *****************************************************************************/
+@import 'vendor/poole';
+@import 'vendor/syntax';
 
 /******************************************************************************
  * [1] CSS Variables
@@ -120,14 +127,14 @@ ul {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-  }
 
-  .embed-wrapper iframe {
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+    iframe {
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
