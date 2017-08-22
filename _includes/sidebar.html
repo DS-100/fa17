@@ -6,7 +6,7 @@
 
   <nav class="navigation">
     {% for link in site.data.sidebar_links %}
-      <a class="navigation__link" href="{{ link.url }}">{{ link.name }}</a>
+      <a class="navigation__link" href="{{ link.url | relative_url }}">{{ link.name }}</a>
     {% endfor %}
   </nav>
 </aside>

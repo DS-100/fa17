@@ -1,12 +1,12 @@
 - name: Home
   url: /
 - name: Syllabus
-  url: /syllabus
+  url: syllabus/
 - name: Setup
-  url: /setup
+  url: setup/
 - name: Grading
-  url: /grading
+  url: grading/
 - name: Assignments
-  url: /assignments
+  url: assignments/
 - name: Resources
-  url: /resources
+  url: resources/
