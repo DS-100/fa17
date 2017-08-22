@@ -1,0 +1,43 @@
+{% assign lecture_counter = 1 %}
+
+{% for lecture in site.data.lectures %}
+  {% assign is_week_begin = lecture_counter | plus: 1 | modulo: 2 %}
+  {% assign week = lecture_counter | plus: 1 | divided_by: 2.0 | ceil %}
+
+  <tr class="lecture"
+      data-lecture-week="{{ week }}"
+      data-lecture-date="{{ lecture.date }}">
+    <!--
+    Need a special case for the first week since there's only one lecture
+    -->
+    {% if lecture_counter == 1 %}
+      <td class="lecture__week" id="lecture-week-{{week}}">
+        {{ week }}
+      </td>
+    {% elsif is_week_begin == 1 && lecture_counter != 1 %}
+      <td class="lecture__week" id="lecture-week-{{week}}" rowspan="2">
+        {{ week }}
+      </td>
+    {% endif %}
+
+    <th class="lecture__num">
+      {{ lecture_counter }}
+    </th>
+    <td class="lecture__date">
+      {{ lecture.date }}
+    </td>
+    <td class="lecture__info">
+      <h3>
+        {{ lecture.topic }}
+        {% if lecture.lecturer %} [{{ lecture.lecturer }}] {% endif %}
+      </h3>
+
+      {{ lecture.description | markdownify }}
+
+      {% if lecture.assignment %}
+        <h4 class="lecture_assignment">{{ lecture.assignment }}</h4>
+      {% endif %}
+    </td>
+  </tr>
+  {% assign lecture_counter = lecture_counter | plus: 1 %}
+{% endfor %}

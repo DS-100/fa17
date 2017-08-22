@@ -1,47 +1,44 @@
 ---
-layout: header_page
-title: DS100 Fall 2017
-tagline: Principles and Techniques of Data Science
-order: 1
+layout: page
+title: "Principles and Techniques of Data Science"
 ---
-{% include JB/setup %}
-
-
 
 <!-- # DS100: Principles & Techniques of Data Science -->
 
-Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. 
-This intermediate level class bridges between [Data8](http://data8.org/fa16/) and upper division computer science and statistics courses as well as methods courses in other fields. 
+Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world.
+This intermediate level class bridges between [Data8](http://data8.org) and upper division computer science and statistics courses as well as methods courses in other fields.
 In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​
 Through a strong emphasizes on data centric computing, quantitative critical thinking, and exploratory data analysis this class covers key principles and techniques of data science.
 These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.
 
 This class is listed as [STAT C100](http://classes.berkeley.edu/content/2017-fall-stat-c100-001-lec-001) and as [COMPSCI C100](http://classes.berkeley.edu/content/2017-fall-compsci-c100-001-lec-001).
 
-### Important Information:
+## Important Information:
 
 * **When:** Lectures Tuesdays and Thursdays from 11:00AM to 12:30PM
-* **Where:** [Evans 10](http://www.berkeley.edu/map?evans) 
+* **Where:** [Evans 10](http://www.berkeley.edu/map?evans)
 * **What:** *Last semester's* [lecture schedule](http://www.ds100.org/sp17/syllabus)
-* **Section and Lab:** The section and lab assignments will be obtained optimally using a [linear program](https://en.wikipedia.org/wiki/Assignment_problem).  To get the best assignment please complete the following [Google Form](https://goo.gl/forms/uGf0qhF2rPF8inRl2). 
-* **News:** We will post updates about the class on [Piazza](https://piazza.com/berkeley/fall2017/ds100/home) 
+* **Section and Lab:** The section and lab assignments will be obtained optimally using a [linear program](https://en.wikipedia.org/wiki/Assignment_problem).  To get the best assignment please complete the following [Google Form](https://goo.gl/forms/uGf0qhF2rPF8inRl2).
+* **News:** We will post updates about the class on [Piazza](https://piazza.com/berkeley/fall2017/ds100/home)
 
 
 
 
-<!-- 
+<!--
 
 If you have enrolled in the wait-list please complete the following  <a href="https://goo.gl/forms/Ku5cu7L7cUbSaTKc2">Background Survey</a> we will use this to help in admitting students into the class.  Please sign up for Piazza to follow updates on the wait list.
  -->
 
 ## Office Hours, Section, and Lab Schedule
 
-<iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_8134mn9ocmcqncv8g6vj9fr3sg%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div class="embed-wrapper">
+  <iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_8134mn9ocmcqncv8g6vj9fr3sg%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
+</div>
 
 For official holidays see the [academic calendar](http://registrar.berkeley.edu/sites/default/files/pdf/UCB_AcademicCalendar_2017-18_V3.pdf).
 
 
-### Goals
+## Goals
 
 * **Prepare** students for advanced Berkeley courses in data-management ([CS186](http://www.cs186berkeley.net)), machine learning [CS189](https://people.eecs.berkeley.edu/~jrs/189/)), and statistics ([Stat-154](http://www.stat.berkeley.edu/~rabbee/s154/)), by providing the necessary foundation and context
 
@@ -64,42 +61,24 @@ While we are working to make this class widely accessible we currently require t
 
 ## Instructors
 
-<!-- The following block is for faculty info -->
-<div class="container-fluid">
-  <script type="text/javascript">
-    function email_address(dep, name) {
-      domain = dep + 'berkeley';
-      tld = 'edu';
-      document.write(
-        '<a href="mailto:' + name + '@' + domain + '.' + tld + '">' +
-        name + '@' + domain + '.' + tld + '</a>');
-  }
-  </script>
-  <div class="row">
-    <div class="col-sm-3"><div class="text-center">
-      <img src="https://jegonzal.github.io/assets/jegonzal.jpg" alt="Joseph Gonzalez" style="height: 150px;"/>
-      <address>
-        <strong>Joseph E. Gonzalez</strong><br>
-        <script type="text/javascript"> email_address("cs.", "jegonzal") </script>
-      </address>
-    </div></div>
-    <div class="col-sm-3"><div class="text-center">
-      <img src="http://www.stat.berkeley.edu/~nolan/images/Deb-Nolan.jpg" alt="Deborah Nolan" style="height: 150px;"/>
-      <address>
-        <strong>Deborah Nolan</strong><br>
-        <script type="text/javascript"> email_address("stat.", "nolan") </script>
-      </address>
-    </div></div>
+<section class="faculty">
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="https://jegonzal.github.io/assets/jegonzal.jpg"
+         alt="Joseph Gonzalez" />
+    <address>
+      <strong>Joseph E. Gonzalez</strong><br>
+      <a href="mailto:jegonzal@cs.berkeley.edu">jegonzal@cs.berkeley.edu</a>
+    </address>
   </div>
-</div>
 
-
-
-
-
-
-
-
-
-
-
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="http://www.stat.berkeley.edu/~nolan/images/Deb-Nolan.jpg"
+         alt="Deborah Nolan" />
+    <address>
+      <strong>Deborah Nolan</strong><br>
+      <a href="mailto:nolan@stat.berkeley.edu">nolan@stat.berkeley.edu</a>
+    </address>
+  </div>
+</section>
