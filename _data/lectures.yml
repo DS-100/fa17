@@ -54,7 +54,7 @@
     While data comes in many forms, most data analysis are done on tabular data
     Mastering the skills of constructing, cleaning, joining, aggregating, and
     manipulating tabular data is essential to data science.  In this lecture,
-    we will introduce the Pandas, the open-source Python data manipulation
+    we will introduce Pandas, the open-source Python data manipulation
     library widely used by data scientists.  In addition to introducing new
     syntax, we will introduce new concepts including indexes, the role of
     column operations on system performance, and basic tools to begin
