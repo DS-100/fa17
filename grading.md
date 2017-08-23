@@ -16,7 +16,7 @@ There will be 2 challenging projects and 6 homework assignments.  Assignments mu
 * 15% Midterm
 * 25% Final
 
-Participation is baed on answering questions with clickers in lecture.  Full credit is given for answering question in 18 lectures, and is pro-rated for fewer than 18 lectures, i.e., min(num lectures with recorded click, 18)/18.
+Participation is based on answering questions with clickers in lecture.  Full credit is given for answering question in 18 lectures, and is pro-rated for fewer than 18 lectures, i.e., min(number of lectures with recorded click, 18)/18.
 
 ### On Time Policy (try not to be late)
 

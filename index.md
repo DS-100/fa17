@@ -40,11 +40,11 @@ For official holidays see the [academic calendar](http://registrar.berkeley.edu/
 
 ## Goals
 
-* **Prepare** students for advanced Berkeley courses in data-management ([CS186](http://www.cs186berkeley.net)), machine learning [CS189](https://people.eecs.berkeley.edu/~jrs/189/)), and statistics ([Stat-154](http://www.stat.berkeley.edu/~rabbee/s154/)), by providing the necessary foundation and context
+* **Prepare** students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context
 
 * **Enable** students to start careers as data scientists by providing experience in working with real-world data, tools, and techniques
 
-* **Empower** student to apply computational and inferential thinking to tackle real-world problems
+* **Empower** student to apply computational and inferential thinking to address real-world problems
 
 
 ## Prerequisites
