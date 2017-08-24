@@ -34,8 +34,21 @@
 
       {{ lecture.description | markdownify }}
 
+      {% if lecture.links %}
+      <p>
+        [
+        {% for link in lecture.links %}
+          <a href="{{ link.url }}">{{ link.name }}</a>
+          {% if link != lecture.links.last %}
+            |
+          {% endif %}
+        {% endfor %}
+        ]
+      </p>
+      {% endif %}
+
       {% if lecture.assignment %}
-        <h4 class="lecture_assignment">{{ lecture.assignment }}</h4>
+        <h4 class="lecture__assignment">{{ lecture.assignment }}</h4>
       {% endif %}
     </td>
   </tr>
