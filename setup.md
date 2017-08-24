@@ -199,6 +199,7 @@ open them unless we ask you to.
 To open Jupyter notebooks, you'll navigate to parent directory of the
 assignment in your terminal and run:
 
+    source activate ds100 # omit the `source` part on Windows
     jupyter notebook
 
 This will automatically open the notebook interface in your browser. You can
