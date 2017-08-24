@@ -43,7 +43,7 @@
     - name: web notebook
       url: assets/notebooks/01-lec/data_science_lifecycle.html
   assignment: |
-    Homework 1 Released: Python Refresher
+    [Homework 1 Released: Python Refresher](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw1.zip)
 
 - date: 8/29/2017
   topic: Data Generation

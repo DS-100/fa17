@@ -48,7 +48,9 @@
       {% endif %}
 
       {% if lecture.assignment %}
-        <h4 class="lecture__assignment">{{ lecture.assignment }}</h4>
+        <h4 class="lecture__assignment">
+          {{ lecture.assignment | markdownify }}
+        </h4>
       {% endif %}
     </td>
   </tr>
