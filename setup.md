@@ -108,8 +108,6 @@ scratch.
         # Switch to the ds100 environment
         activate ds100
 
-        # Install the packages for ds100
-        pip install datascience okpy
 
    From now on, you can switch to the `ds100` env with `activate ds100`,
    and switch back to the default env with `deactivate`.
@@ -155,9 +153,7 @@ For other distributions of Linux, substitute the available package manager.
         # Switch to the ds100 environment
         source activate ds100
 
-        # Install the packages for ds100
-        pip install datascience okpy
-
+  
    From now on, you can switch to the `ds100` env with `source activate ds100`,
    and switch back to the default env with `source deactivate`.
 
