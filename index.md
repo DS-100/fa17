@@ -91,3 +91,77 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 </section>
+
+## Teaching Assistants
+<section class="faculty">
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="TA_imgs/SamLau.jpg"
+         alt="Sam Lau" />
+    <address>
+      <strong>Sam Lau</strong><br>
+      <a href="mailto:samlau95@berkeley.edu">samlau95@berkeley.edu</a>
+    </address>
+  </div>
+
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="TA_imgs/XinWang.jpg"
+         alt="Xin Wang" />
+    <address>
+      <strong>Xin Wang</strong><br>
+      <a href="mailto:xinw@berkeley.edu">xinw@berkeley.edu</a>
+    </address>
+  </div>
+
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="TA_imgs/BiyeJiang.jpg"
+         alt="Biye Jiang" />
+    <address>
+      <strong>Biye Jiang</strong><br>
+      <a href="mailto:bjiang@berkeley.edu">bjiang@berkeley.edu</a>
+    </address>
+  </div>
+
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="TA_imgs/JakeSoloff.jpg"
+         alt="Jake Soloff" />
+    <address>
+      <strong>Jake Soloff</strong><br>
+      <a href="mailto:jake_soloff@berkeley.edu">jake_soloff@berkeley.edu</a>
+    </address>
+  </div>
+
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="TA_imgs/SonaJeswani.jpg"
+         alt="Sona Jeswani" />
+    <address>
+      <strong>Sona Jeswani</strong><br>
+      <a href="mailto:sona.jeswani@berkeley.edu">sona.jeswani@berkeley.edu</a>
+    </address>
+  </div>
+
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="TA_imgs/NhiQuach.jpg"
+         alt="Nhi Quach" />
+    <address>
+      <strong>Nhi Quach</strong><br>
+      <a href="mailto:nhiquach@berkeley.edu">nhiquach@berkeley.edu</a>
+    </address>
+  </div>
+
+  <div class="faculty__item">
+    <img class="faculty__img"
+         src="TA_imgs/DimaLituiev.jpg"
+         alt="Dima Lituiev" />
+    <address>
+      <strong>Dima Lituiev (UCSF)</strong><br>
+      <a href="mailto:d.lituiev@gmail.com">d.lituiev@gmail.com</a>
+    </address>
+  </div>
+
+</section>
