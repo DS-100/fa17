@@ -141,27 +141,33 @@ ul {
   }
 }
 
-.faculty {
+.staff {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 
   margin-top: 1.5rem;
 }
 
-    .faculty__img {
-      height: 150px;
+    .staff__item {
+      flex-basis: 15rem;
+      margin-bottom: 1rem;
+    }
+
+    .staff__img {
+      width: 7.5rem;
       margin: 0 auto;
     }
 
 @media (min-width: $tablet-up) {
-  .faculty {
+  .staff {
     flex-direction: row;
   }
 
-  .faculty__item + .faculty__item {
-    margin-left: 2rem;
+  .staff__item {
+    margin-left: 1rem;
   }
 }
 

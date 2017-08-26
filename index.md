@@ -70,9 +70,9 @@ While we are working to make this class widely accessible we currently require t
 
 ## Instructors
 
-<section class="faculty">
-  <div class="faculty__item">
-    <img class="faculty__img"
+<section class="staff">
+  <div class="staff__item">
+    <img class="staff__img"
          src="https://jegonzal.github.io/assets/jegonzal.jpg"
          alt="Joseph Gonzalez" />
     <address>
@@ -81,8 +81,8 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 
-  <div class="faculty__item">
-    <img class="faculty__img"
+  <div class="staff__item">
+    <img class="staff__img"
          src="http://www.stat.berkeley.edu/~nolan/images/Deb-Nolan.jpg"
          alt="Deborah Nolan" />
     <address>
@@ -93,10 +93,10 @@ While we are working to make this class widely accessible we currently require t
 </section>
 
 ## Teaching Assistants
-<section class="faculty">
-  <div class="faculty__item">
-    <img class="faculty__img"
-         src="TA_imgs/SamLau.jpg"
+<section class="staff">
+  <div class="staff__item">
+    <img class="staff__img"
+         src="assets/images/SamLau.jpg"
          alt="Sam Lau" />
     <address>
       <strong>Sam Lau</strong><br>
@@ -104,9 +104,9 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 
-  <div class="faculty__item">
-    <img class="faculty__img"
-         src="TA_imgs/XinWang.jpg"
+  <div class="staff__item">
+    <img class="staff__img"
+         src="assets/images/XinWang.jpg"
          alt="Xin Wang" />
     <address>
       <strong>Xin Wang</strong><br>
@@ -114,9 +114,9 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 
-  <div class="faculty__item">
-    <img class="faculty__img"
-         src="TA_imgs/BiyeJiang.jpg"
+  <div class="staff__item">
+    <img class="staff__img"
+         src="assets/images/BiyeJiang.jpg"
          alt="Biye Jiang" />
     <address>
       <strong>Biye Jiang</strong><br>
@@ -124,9 +124,9 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 
-  <div class="faculty__item">
-    <img class="faculty__img"
-         src="TA_imgs/JakeSoloff.jpg"
+  <div class="staff__item">
+    <img class="staff__img"
+         src="assets/images/JakeSoloff.jpg"
          alt="Jake Soloff" />
     <address>
       <strong>Jake Soloff</strong><br>
@@ -134,9 +134,9 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 
-  <div class="faculty__item">
-    <img class="faculty__img"
-         src="TA_imgs/SonaJeswani.jpg"
+  <div class="staff__item">
+    <img class="staff__img"
+         src="assets/images/SonaJeswani.jpg"
          alt="Sona Jeswani" />
     <address>
       <strong>Sona Jeswani</strong><br>
@@ -144,9 +144,9 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 
-  <div class="faculty__item">
-    <img class="faculty__img"
-         src="TA_imgs/NhiQuach.jpg"
+  <div class="staff__item">
+    <img class="staff__img"
+         src="assets/images/NhiQuach.jpg"
          alt="Nhi Quach" />
     <address>
       <strong>Nhi Quach</strong><br>
@@ -154,9 +154,9 @@ While we are working to make this class widely accessible we currently require t
     </address>
   </div>
 
-  <div class="faculty__item">
-    <img class="faculty__img"
-         src="TA_imgs/DimaLituiev.jpg"
+  <div class="staff__item">
+    <img class="staff__img"
+         src="assets/images/DimaLituiev.jpg"
          alt="Dima Lituiev" />
     <address>
       <strong>Dima Lituiev (UCSF)</strong><br>
