@@ -42,6 +42,8 @@
       url: https://drive.google.com/open?id=0Bze55lezLJhIVjlRUVJUYXJKZm8
     - name: web notebook
       url: assets/notebooks/01-lec/data_science_lifecycle.html
+    - name: screencast
+      url: https://www.youtube.com/watch?v=CwnNCjWVLDY
   assignment: |
     [Homework 1 Released: Python Refresher](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw1.zip)
 
