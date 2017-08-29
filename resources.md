@@ -13,6 +13,10 @@ You can send us changes to the course website by [forking](https://help.github.c
 
 As a data scientist you will often need to search for information on various libraries and tools.  In this class we will be using several key python libraries.  Here are their documentation pages:
 
+* **The Bash Command Line:**
+  * [Linux and Bash](https://drive.google.com/file/d/0B6nL03OcEignTGowRkNCZzN6T00/view): Intro to Linux, Cloud Computing (which you can skip for the purposes of this class), and the Bash command line. You can skip all portions that don't pertain to using the command line.
+  * [Bash Part 2](https://drive.google.com/file/d/0B6nL03OcEigncUxXNnNmV3VuN1U/view): Part 2 of the intro to command line.
+
 * **Python:**
   * [Python Tutorial](https://docs.python.org/3.5/tutorial/):  Teach yourself python.  This is a pretty comprehensive tutorial.
   * [Python + Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/) this tutorial provides a great overview of a lot of the functionality we will be using in DS100.
