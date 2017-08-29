@@ -59,6 +59,13 @@
     particular we will discuss differences between census, surveys, controlled
     experiments, and observational studies.  We will highlight the power of
     simple randomization and the fallacies of data scale.
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5Qkl1MkFCMVFjZHM
+    - name: pdf
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5NlNGd29lbWgyeGs
+    - name: handout
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5RDJXank5T0FYcHc
 
 - date: 8/31/2017
   topic: Data Tables, Indexes, and Pandas
