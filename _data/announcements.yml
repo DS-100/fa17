@@ -1,5 +1,12 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 08/29/2017
+  text: |
+    - Lab and discussion start this week. Please attend the lab you have been assigned to.
+    - We have started taking lecture attendance. You need to attend 18 lectures total to get full credit partipication.
+    - As a reminder, you have 5 slip days to use (not slip hours) for homeworks and projects.
+    - Homework 1 is due Tues, Sept 5 at 11:59pm.
+    - Homework 2 will be released Tues, Sept 5.
 
 - date: 08/20/2017
   text: |
