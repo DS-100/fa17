@@ -82,8 +82,10 @@
   links:
     - name: slides
       url: https://docs.google.com/presentation/d/19Gl37a-oNlHPEJfOzA0PVEBxpgetAIqOEfDtL2lgrC0/edit?usp=sharing
-    - name: notebook
+    - name: notebook html
       url: assets/notebooks/03-lec/03live-datatables-indexes-pandas.html
+    - name: notebook file
+      url: https://drive.google.com/file/d/0B5nfF33pVxgfZHhBTmw4bnZBaWc/view?usp=sharing
 
 - date: 9/5/2017
   topic: EDA and Data Cleaning
