@@ -88,6 +88,8 @@
       url: assets/notebooks/03-lec/03live-datatables-indexes-pandas.html
     - name: notebook file
       url: https://drive.google.com/file/d/0B5nfF33pVxgfZHhBTmw4bnZBaWc/view?usp=sharing
+  assignment: |
+    [Vitamin 1](https://goo.gl/forms/lFFylEP9ARxT8jjE3)
 
 - date: 9/5/2017
   topic: EDA and Data Cleaning
