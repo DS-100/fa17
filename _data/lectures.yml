@@ -89,7 +89,7 @@
     - name: notebook file
       url: https://drive.google.com/file/d/0B5nfF33pVxgfZHhBTmw4bnZBaWc/view?usp=sharing
   assignment: |
-    [Vitamin 1](https://goo.gl/forms/lFFylEP9ARxT8jjE3)
+    [Vitamin 1 Released](https://goo.gl/forms/lFFylEP9ARxT8jjE3)
 
 - date: 9/5/2017
   topic: EDA and Data Cleaning
@@ -115,8 +115,8 @@
       url: https://drive.google.com/open?id=0Bze55lezLJhIMEFUMFVaSVlSNms
     - name: web notebook
       url: assets/notebooks/04-lec/EDA_and_cleaning.html
-    - name: python 
-      url: assets/notebooks/04-lec/EDA_and_Cleaning.ipynb 
+    - name: python
+      url: assets/notebooks/04-lec/EDA_and_Cleaning.ipynb
     - name: data
       url: assets/notebooks/04-lec/data.zip
 
