@@ -113,8 +113,10 @@
       url: https://drive.google.com/open?id=0Bze55lezLJhIMEFUMFVaSVlSNms
     - name: web notebook
       url: assets/notebooks/04-lec/EDA_and_cleaning.html
-    - name: data and python
-      url: assets/notebooks/04-lec/
+    - name: python 
+      url: assets/notebooks/04-lec/EDA_and_Cleaning.ipynb 
+    - name: data
+      url: assets/notebooks/04-lec/data.zip
 
 - date: 9/7/2017
   topic: Working with Text
