@@ -68,6 +68,8 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5RDJXank5T0FYcHc
     - name: random sampling notes
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5Y1RqMG12TU1wMlU
+    - name: screencast
+      url: https://www.youtube.com/watch?v=eKsn-6ssC-w
 
 - date: 8/31/2017
   topic: Data Tables, Indexes, and Pandas
@@ -88,6 +90,8 @@
       url: assets/notebooks/03-lec/03live-datatables-indexes-pandas.html
     - name: notebook file
       url: https://drive.google.com/file/d/0B5nfF33pVxgfZHhBTmw4bnZBaWc/view?usp=sharing
+    - name: screencast
+      url: https://www.youtube.com/watch?v=CP63L2mKPko
   assignment: |
     [Vitamin 1 Released](https://goo.gl/forms/lFFylEP9ARxT8jjE3)
 
