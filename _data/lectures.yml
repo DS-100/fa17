@@ -104,6 +104,17 @@
     how we prepare, analyze, and visualize data.
   assignment: |
     Homework 2 Released: Food Safety Data Cleaning and EDA
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0Bze55lezLJhIV0FQMmtzT3l0RGs
+    - name: pdf
+      url: https://drive.google.com/open?id=0Bze55lezLJhIdWk0cGZjWVpZMTQ
+    - name: handout
+      url: https://drive.google.com/open?id=0Bze55lezLJhIMEFUMFVaSVlSNms
+    - name: web notebook
+      url: assets/notebooks/04-lec/EDA_and_cleaning.html
+    - name: data and python
+      url: assets/notebooks/04-lec/
 
 - date: 9/7/2017
   topic: Working with Text
