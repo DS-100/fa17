@@ -136,7 +136,7 @@
     - name: web notebook Joins
       url: assets/notebooks/05-lec/join_example.html
     - name: python notebook Joins
-      url: assets/notebook/05-lec/join_example.ipynb
+      url: assets/notebooks/05-lec/join_example.ipynb
 
 - date: 9/12/2017
   topic: Visualization and Data Tranformations 
