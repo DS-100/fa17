@@ -11822,6 +11822,16 @@ div#notebook {
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The first table contains favorite numbers of some famous people.  (The numbers have been changes to protect their identity.)</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
@@ -11906,6 +11916,16 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The second table contains the individuals email addresses.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -11992,7 +12012,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Many-Ways-to-join-the-data">Many Ways to join the data<a class="anchor-link" href="#Many-Ways-to-join-the-data">&#182;</a></h2>
+<h2 id="Many-ways-to-join-the-data">Many ways to join the data<a class="anchor-link" href="#Many-ways-to-join-the-data">&#182;</a></h2><p>There are actually many ways you could imagine combining data from both of these tables.  In the following we work through a few example methods.</p>
+
 </div>
 </div>
 </div>
@@ -12212,7 +12233,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Left-Joins">Left Joins<a class="anchor-link" href="#Left-Joins">&#182;</a></h3><p>A left join will keep all the entries in the left table even if they have no matching entry in the right table.  For example we didn't have Nhi or Bob's email address and so they appear as missing values rather than being dropped from the join.</p>
+<h3 id="Left-Join">Left Join<a class="anchor-link" href="#Left-Join">&#182;</a></h3><p>A left join will keep all the entries in the left table even if they have no matching entry in the right table.  For example we didn't have Nhi or Bob's email address and so they appear as missing values rather than being dropped from the join.</p>
 
 </div>
 </div>
@@ -12446,7 +12467,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Using-the-Join-function">Using the Join function<a class="anchor-link" href="#Using-the-Join-function">&#182;</a></h2>
+<h2 id="Using-the-Join-function">Using the Join function<a class="anchor-link" href="#Using-the-Join-function">&#182;</a></h2><p>Pandas also provides a join function which joints two tables on their index.  This function also let's you specify what kind of join you would like.</p>
+
 </div>
 </div>
 </div>
@@ -12455,7 +12477,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">favorite_numbers</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;Name&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">email_addr</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;Name&quot;</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">favorite_numbers</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;Name&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">email_addr</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;Name&quot;</span><span class="p">),</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;inner&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12500,11 +12522,6 @@ div#notebook {
   </thead>
   <tbody>
     <tr>
-      <th>Bob</th>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
       <th>Deb</th>
       <td>7.00</td>
       <td>deborah_nolan@berkeley.edu</td>
@@ -12528,11 +12545,6 @@ div#notebook {
       <th>Joey</th>
       <td>3.14</td>
       <td>jegonzal@cs.berkeley.edu</td>
-    </tr>
-    <tr>
-      <th>Nhi</th>
-      <td>3.00</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>Sam</th>
