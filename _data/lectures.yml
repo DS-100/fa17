@@ -133,10 +133,22 @@
   description: |
     Continue exploratory data analysis by digging into police records and basic data visualization.
   links:
-    - name: web notebook Joins
+    - name: pptx
+      url: https://drive.google.com/open?id=0Bze55lezLJhISmdGeGVzZHdtMms
+    - name: pdf
+      url: https://drive.google.com/open?id=0Bze55lezLJhIRjZVU2EwdnRxeWs
+    - name: handout
+      url: https://drive.google.com/open?id=0Bze55lezLJhIRXVmWV8wa2xrY1E
+    - name: Joins notebook (html)
       url: assets/notebooks/05-lec/join_example.html
-    - name: python notebook Joins
+    - name: Joins notebook (ipynb)
       url: assets/notebooks/05-lec/join_example.ipynb
+    - name: EDA notebook (html)
+      url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.html
+    - name: EDA notebook (ipynb)
+      url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.ipynb
+
+
 
 - date: 9/12/2017
   topic: Visualization and Data Tranformations 
