@@ -126,7 +126,39 @@
     - name: data
       url: assets/notebooks/04-lec/data.zip
 
+
 - date: 9/7/2017
+  topic: EDA Continued
+  lecturer: Gonzalez
+  description: |
+    Continue exploratory data analysis by digging into police records and basic data visualization.
+  links:
+
+
+- date: 9/12/2017
+  topic: Visualization and Data Tranformations 
+  lecturer: Nolan
+  description: |
+    A large fraction of the human brain is devoted to visual perception.   As a
+    consequence, visualization is a critical tool in both exploratory data
+    analysis and communicating complex relationships in data.   However, making
+    informative and clear visualizations of complex concepts can be
+    challenging.  In this lecture, we will explore good and bad visualizations
+    and describe how to choose visualizations for various kinds of data and
+    goals.
+
+    Often directly visualizing data and relationships can result in less
+    informative plots. However by combining basic data transformations and
+    additional analytics we can often reveal and visualize important and
+    informative patterns in data.  In this lecture we will continue to explore
+    visualization and discuss several data transformations to address noise,
+    heavy tail behavior, and high-dimensional data.
+
+  assignment: |
+    Homework 3 Released: Bike Sharing and Multivariate Visualization 
+
+
+- date: 9/14/2017
   topic: Working with Text
   lecturer: Nolan
   description: |
@@ -139,50 +171,19 @@
     introduce regular expressions as a mechanism for cleaning and transforming
     text data data.
 
-- date: 9/12/2017
-  topic: Visualization and Communication
-  lecturer: Nolan
-  description: |
-    A large fraction of the human brain is devoted to visual perception.   As a
-    consequence, visualization is a critical tool in both exploratory data
-    analysis and communicating complex relationships in data.   However, making
-    informative and clear visualizations of complex concepts can be
-    challenging.  In this lecture, we will explore good and bad visualizations
-    and describe how to choose visualizations for various kinds of data and
-    goals.
-  assignment: |
-    Homework 3 Released: Food Safety Text Analysis and Mapping
 
-- date: 9/14/2017
-  topic: Visualization and Relationships and Transformations
-  lecturer: Gonzalez
-  description: |
-    Often directly visualizing data and relationships can result in less
-    informative plots. However by combining basic data transformations and
-    additional analytics we can often reveal and visualize important and
-    informative patterns in data.  In this lecture we will continue to explore
-    visualization and discuss several data transformations to address noise,
-    heavy tail behavior, and high-dimensional data.
 
 - date: 9/19/2017
-  topic: Simple Probability Models and Estimation
+  topic: Estimation
   lecturer: Gonzalez
   description: |
-    The statistician (and data scientist ahead of his time) George Box once
-    wrote “Essentially, all models are wrong, but some are useful.”  A key step
-    in data science is developing models that capture the basic essential
-    patterns in data and whose parametric shape can provide inferential insight
-    and enable prediction.  Data scientists build models from basic
-    distributions to describe ever increasingly complex phenomena.  In this
-    lecture we will begin to introduce basic statistical distributions and
-    discuss how to fit these distributions to data.  We begin to discuss the
-    art of model design.
+    How do we pick a number to represent a dataset?  What makes a number a good representation? The statistician (and data scientist ahead of his time) George Box once wrote “Essentially, all models are wrong, but some are useful.”  A key step in data science is developing models that capture the essential signal in data while providing insight into the phenomena that govern the data and enable prediction effective prediction.  In this lecture we address the fundamental question of how to choose a number and more generally a model that reflects the data.  In the process we develop the foundation of empirical risk minimization.
   assignment: |
     Homework 4 Released: Bike Sharing and Multivariate Visualization
 
 - date: 9/21/2017
   topic: Model Estimation Continued
-  lecturer: Gonzalez
+  lecturer: Nolan
   description: |
     How do we characterize a model estimation procedure?  In this lecture we
     will continue our exploration of model estimation and examine how the
