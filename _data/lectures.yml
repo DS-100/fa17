@@ -147,6 +147,9 @@
       url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.html
     - name: EDA notebook (ipynb)
       url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.ipynb
+   - name: data
+      url: assets/notebooks/04-lec/data.zip
+     
 
 
 
