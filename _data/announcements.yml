@@ -1,5 +1,10 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 09/07/2017
+  text: |
+    - Homework 2 is released and is due Wed, Sept 13th at 11:59pm.
+    - Homework 3 will be released Tues, Sept 12.
+
 - date: 09/05/2017
   text: |
     - Vitamin 1 has been released and is due at 11:59pm Wed. Sept 6.

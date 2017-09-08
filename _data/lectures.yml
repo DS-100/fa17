@@ -111,7 +111,7 @@
   assignment: |
     [Lab 2 Released: pandas](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab02.zip)
 
-    Homework 2 Released: Food Safety Data Cleaning and EDA
+    [Homework 2 Released: Food Safety Data Cleaning and EDA](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw2.zip)
   links:
     - name: pptx
       url: https://drive.google.com/open?id=0Bze55lezLJhIaXdKZUlpbGM1Vkk
@@ -125,6 +125,8 @@
       url: assets/notebooks/04-lec/EDA_and_Cleaning.ipynb
     - name: data
       url: assets/notebooks/04-lec/data.zip
+    - name: screencast
+      url: https://www.youtube.com/watch?v=zOapXXD_oxI
 
 
 - date: 9/7/2017
@@ -147,8 +149,10 @@
       url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.html
     - name: EDA notebook (ipynb)
       url: assets/notebooks/05-lec/EDA_and_Cleaning_v2.ipynb
-   - name: data
+    - name: data
       url: assets/notebooks/04-lec/data.zip
+    - name: screencast
+      url: https://www.youtube.com/watch?v=jCijnWPkbNY
      
 
 
