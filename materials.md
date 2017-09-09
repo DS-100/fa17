@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Assignments"
+title: "Materials"
 description: "Labs and Projects"
 ---
 

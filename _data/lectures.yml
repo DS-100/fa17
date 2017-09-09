@@ -153,9 +153,9 @@
       url: assets/notebooks/04-lec/data.zip
     - name: screencast
       url: https://www.youtube.com/watch?v=jCijnWPkbNY
+  assignment: |
+    [Vitamin 2 Released](https://goo.gl/forms/hDjtAL3nHxt0gIei2)
      
-
-
 
 - date: 9/12/2017
   topic: Visualization and Data Tranformations 
