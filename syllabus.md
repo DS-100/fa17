@@ -41,7 +41,8 @@ Script to highlight the current lecture.
 const current_date = new Date();
 const lectures = document.getElementsByClassName('lecture');
 
-for (let lecture of lectures) {
+for (var i = 0; i < lectures.length; i++ ) {
+  let lecture = lectures[i]
   const { lectureWeek, lectureDate } = lecture.dataset;
   const lec_date = new Date(lectureDate + ' 23:59:00');
   if (current_date <= lec_date) {

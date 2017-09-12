@@ -92,6 +92,9 @@
       url: https://drive.google.com/file/d/0B5nfF33pVxgfZHhBTmw4bnZBaWc/view?usp=sharing
     - name: screencast
       url: https://www.youtube.com/watch?v=CP63L2mKPko
+    - name: discussion slides
+      url: https://docs.google.com/a/berkeley.edu/presentation/d/10XhhkYLemrVQQzo4QzkCz4TYF8bDdzwSWuq3UIQDb60/edit?usp=sharing
+
   assignment: |
     [Vitamin 1 Released](https://goo.gl/forms/lFFylEP9ARxT8jjE3)
 
@@ -153,9 +156,10 @@
       url: assets/notebooks/04-lec/data.zip
     - name: screencast
       url: https://www.youtube.com/watch?v=jCijnWPkbNY
+    - name: discussion notebook
+      url: https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc02.zip
   assignment: |
     [Vitamin 2 Released](https://goo.gl/forms/hDjtAL3nHxt0gIei2)
-     
 
 - date: 9/12/2017
   topic: Visualization and Data Tranformations 

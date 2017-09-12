@@ -14,7 +14,7 @@ description: "Labs and Discussion Notebooks"
 [Discussion 2: Sampling](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc02.zip)
 
 
-## Coming Soon!
+## Previous Semester's Materials
 
-In the mean time you can take a look at materials from the previous semester [github repository](https://github.com/DS-100/sp17/tree/master/materials).
+You can take a look at materials from the previous semester [github repository](https://github.com/DS-100/sp17/tree/master/materials).
 You can also obtain all the original slides from last semester here [google drive](https://drive.google.com/open?id=0Bze55lezLJhIM3BBRW0wc0lXQWs) and all datasets are available [here](https://drive.google.com/open?id=0B2k285AK-3KER3JoZU9hQVNGU2c).
