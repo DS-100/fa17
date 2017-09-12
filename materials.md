@@ -1,8 +1,17 @@
 ---
 layout: page
 title: "Materials"
-description: "Labs and Projects"
+description: "Labs and Discussion Notebooks"
 ---
+## Labs
+[Lab 2: Pandas Overview](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab02.zip)
+
+[Lab 3: Data Cleaning and Seaborn](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab03.zip)
+
+## Discussions
+[Discussion 1: Python, Numpy, Matrix Operations, Calculus](https://docs.google.com/a/berkeley.edu/presentation/d/10XhhkYLemrVQQzo4QzkCz4TYF8bDdzwSWuq3UIQDb60/edit?usp=sharing)
+
+[Discussion 2: Sampling](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc02.zip)
 
 
 ## Coming Soon!
