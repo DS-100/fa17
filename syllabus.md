@@ -50,9 +50,11 @@ for (var i = 0; i < lectures.length; i++ ) {
 
     // Need to look up the week element since it might be in the row above
     const weekEl = document.getElementById(`lecture-week-${lectureWeek}`);
-    weekEl.className += ' lecture__week--current'
+    weekEl.className += ' lecture__week--current';
+    window.location.hash = `lecture-week-${lectureWeek}`;
     break;
   }
+  
 }
 </script>
 
