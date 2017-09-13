@@ -205,6 +205,8 @@
       url: https://seaborn.pydata.org/tutorial.html
     - name: optional reading (Plotting with Pandas)
       url: https://pandas.pydata.org/pandas-docs/stable/visualization.html
+    - name: screencast
+      url: https://www.youtube.com/watch?v=48f_4nZIriA
 
 - date: 9/14/2017
   topic: Working with Text
@@ -219,15 +221,13 @@
     introduce regular expressions as a mechanism for cleaning and transforming
     text data data.
 
-
-
 - date: 9/19/2017
   topic: Estimation
   lecturer: Gonzalez
   description: |
     How do we pick a number to represent a dataset?  What makes a number a good representation? The statistician (and data scientist ahead of his time) George Box once wrote “Essentially, all models are wrong, but some are useful.”  A key step in data science is developing models that capture the essential signal in data while providing insight into the phenomena that govern the data and enable prediction effective prediction.  In this lecture we address the fundamental question of how to choose a number and more generally a model that reflects the data.  In the process we develop the foundation of empirical risk minimization.
   assignment: |
-    Homework 4 Released: Bike Sharing and Multivariate Visualization
+    Project 1 Part 1 Released: Twitter Analysis
 
 - date: 9/21/2017
   topic: Model Estimation Continued
@@ -251,7 +251,7 @@
     will also touch on the challenges of false discovery and multiple
     hypothesis testing.
   assignment: |
-    Project 1 Released: Twitter Analysis
+    Project 1 Part 2 Released: Twitter Analysis
 
 - date: 9/28/2017
   topic: Randomized Trials
