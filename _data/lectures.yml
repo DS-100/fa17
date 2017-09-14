@@ -192,9 +192,12 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5djhMYkwwc2NjUXM
 
 - date: 9/14/2017
-  topic: Working with Text
+  topic: Visualization, Ctd.  
   lecturer: Nolan
   description: |
+    We pick up with transformations.
+
+    Working with text:
     Whether in documents, tweets, or records in a table, text data is
     ubiquitous and presents a unique set of challenges for data scientists.
     How do you extract key phrases from text?  What are meaningful aggregate
@@ -204,6 +207,13 @@
     introduce regular expressions as a mechanism for cleaning and transforming
     text data data.
 
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5NVB0RzJmaGNfdTA
+    - name: pdf
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5ZndINVR4TmN6RFU
+    - name: handout
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5QjFaellOZ2JwVVE
 
 
 - date: 9/19/2017
