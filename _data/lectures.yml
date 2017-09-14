@@ -42,8 +42,11 @@
       url: https://drive.google.com/open?id=0Bze55lezLJhIVjlRUVJUYXJKZm8
     - name: web notebook
       url: assets/notebooks/01-lec/data_science_lifecycle.html
+    - name: optional reading (Data Science and Science)
+      url: http://www.pnas.org/content/114/33/8689.full.pdf
     - name: screencast
       url: https://www.youtube.com/watch?v=CwnNCjWVLDY
+
   assignment: |
     [Homework 1 Released: Python Refresher](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw1.zip)
 
@@ -88,6 +91,8 @@
       url: https://docs.google.com/presentation/d/19Gl37a-oNlHPEJfOzA0PVEBxpgetAIqOEfDtL2lgrC0/edit?usp=sharing
     - name: notebook html
       url: assets/notebooks/03-lec/03live-datatables-indexes-pandas.html
+    - name: optional reading (Pandas in 10 Minutes)
+      url: https://pandas.pydata.org/pandas-docs/stable/10min.html
     - name: notebook file
       url: https://drive.google.com/file/d/0B5nfF33pVxgfZHhBTmw4bnZBaWc/view?usp=sharing
     - name: screencast
@@ -122,6 +127,10 @@
       url: https://drive.google.com/open?id=0Bze55lezLJhISklOSHJyS0ZnMjA
     - name: handout
       url: https://drive.google.com/open?id=0Bze55lezLJhIRkRRWWRwdE13MVU
+    - name: optional reading 
+      url: http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf
+    - name: optional interesting tutorial
+      url: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python
     - name: web notebook
       url: assets/notebooks/04-lec/EDA_and_cleaning.html
     - name: python
@@ -181,7 +190,9 @@
     important and informative patterns in data. 
 
   assignment: |
-    Homework 3 Released: Bike Sharing and Multivariate Visualization 
+    [Lab 3 Released: Data cleaning and seaborn](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab03.zip)
+
+    [Homework 3 Released: Bike Sharing and Multivariate Visualization](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw3.zip)
 
   links:
     - name: pptx
@@ -190,6 +201,12 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5ejQ4NExvZmhETTQ
     - name: handout
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5djhMYkwwc2NjUXM
+    - name: optional reading (Seaborn Tutorial)
+      url: https://seaborn.pydata.org/tutorial.html
+    - name: optional reading (Plotting with Pandas)
+      url: https://pandas.pydata.org/pandas-docs/stable/visualization.html
+    - name: screencast
+      url: https://www.youtube.com/watch?v=48f_4nZIriA
 
 - date: 9/14/2017
   topic: Visualization, Ctd.  
@@ -222,7 +239,7 @@
   description: |
     How do we pick a number to represent a dataset?  What makes a number a good representation? The statistician (and data scientist ahead of his time) George Box once wrote “Essentially, all models are wrong, but some are useful.”  A key step in data science is developing models that capture the essential signal in data while providing insight into the phenomena that govern the data and enable prediction effective prediction.  In this lecture we address the fundamental question of how to choose a number and more generally a model that reflects the data.  In the process we develop the foundation of empirical risk minimization.
   assignment: |
-    Homework 4 Released: Bike Sharing and Multivariate Visualization
+    Project 1 Part 1 Released: Twitter Analysis
 
 - date: 9/21/2017
   topic: Model Estimation Continued
@@ -246,7 +263,7 @@
     will also touch on the challenges of false discovery and multiple
     hypothesis testing.
   assignment: |
-    Project 1 Released: Twitter Analysis
+    Project 1 Part 2 Released: Twitter Analysis
 
 - date: 9/28/2017
   topic: Randomized Trials
