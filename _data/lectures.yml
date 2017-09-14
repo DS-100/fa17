@@ -256,7 +256,7 @@
     model that reflects the data.  In the process we develop the foundation of empirical risk minimization.
 
 - date: 9/26/2017
-  topic: Hypothesis Testing
+  topic: Model Estimation 
   lecturer: Nolan
   description: |
     How do we characterize a model estimation procedure?  In this lecture we
