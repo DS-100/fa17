@@ -243,9 +243,6 @@
 - date: 9/21/2017
   topic: Estimation
   lecturer: Gonzalez
-
-  topic: Model Estimation Continued
-  lecturer: Nolan
   description: |
     How do we pick a number to represent a dataset?  
     What makes a number a good representation? The statistician (and data scientist ahead of his time) 
