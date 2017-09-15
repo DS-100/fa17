@@ -246,7 +246,7 @@
 
   topic: Model Estimation Continued
   lecturer: Nolan
-   description: |
+  description: |
     How do we pick a number to represent a dataset?  
     What makes a number a good representation? The statistician (and data scientist ahead of his time) 
     George Box once wrote “Essentially, all models are wrong, but some are useful.” 
