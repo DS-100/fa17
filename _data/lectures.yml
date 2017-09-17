@@ -222,10 +222,10 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5ZndINVR4TmN6RFU
     - name: handout
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5QjFaellOZ2JwVVE
-
+    - name: screencast
+      url: https://www.youtube.com/watch?v=N1Y2-I9U_Qg
   assignment: |
-    [Vitamin 3 Released] (https://goo.gl/forms/nss4lY8STRUiUonM2)
-
+    [Vitamin 3 Released](https://goo.gl/forms/nss4lY8STRUiUonM2)
 
 - date: 9/19/2017
   topic: Working with text
