@@ -253,9 +253,11 @@
       url: assets/notebooks/08-lec/regular_expression_examples.ipynb
     - name: data
       url: assets/notebooks/08-lec/data.zip
+    - name: screencast
+      url: https://www.youtube.com/watch?v=o6nj8q2nrg8
   assignment: |
     Project 1 Part 1 Released: Twitter Analysis
-    
+
     [Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
 
 
