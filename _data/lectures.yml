@@ -240,6 +240,19 @@
     introduce regular expressions as a mechanism for cleaning and transforming
     text data data.
 
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5S0Z6akh5NEtiZWc
+    - name: pdf
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5RE9XZWl4c2JwLXc
+    - name: handout
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5MWJmOTg1TGdkWmc
+    - name: RegEx notebook (html)
+      url: assets/notebooks/08-lec/regular_expression_examples.html
+    - name: RegEx notebook (ipynb)
+      url: assets/notebooks/08-lec/regular_expression_examples.ipynb
+    - name: data
+      url: assets/notebooks/08-lec/data.zip
   assignment: |
     Project 1 Part 1 Released: Twitter Analysis
 
