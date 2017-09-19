@@ -255,6 +255,8 @@
       url: assets/notebooks/08-lec/data.zip
   assignment: |
     Project 1 Part 1 Released: Twitter Analysis
+    [Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
+
 
 - date: 9/21/2017
   topic: Estimation
