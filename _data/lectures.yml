@@ -256,7 +256,7 @@
     - name: screencast
       url: https://www.youtube.com/watch?v=o6nj8q2nrg8
   assignment: |
-    Project 1 Part 1 Released: Twitter Analysis
+    [Project 1 Part 1 Released: Twitter Analysis](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/proj1.zip)
 
     [Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
 
@@ -269,7 +269,7 @@
 
 - date: 9/26/2017
   topic: Modeling and Estimation Continued
-  lecturer: Gonzalez
+  lecturer: Gonzalez, Nolan
   description: |
     In this lecture we will continue our development of models within the framework of loss minimization.  In the process we will begin to study how loss minimization on the data relates to a broader goal of loss minimization on future predictions.  In the process we will review basic concepts in probability (distributions and expectations) and then introduce the concept of empirical risk minimization.  
 
@@ -277,7 +277,7 @@
     Project 1 Part 2 Released: Twitter Analysis
 
 - date: 9/28/2017
-  topic: The Bias Variance Trade-ff
+  topic: The Bias Variance Trade-Off
   lecturer: Gonzalez
   description: |
     In this lecture we will study two fundamental concepts in estimation: Bias and Variane.  We will examine the squared loss empirical risk minimizatin procedure and reveal this connection.
