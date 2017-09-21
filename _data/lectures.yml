@@ -267,6 +267,18 @@
   description: |
     How do we pick a number to represent a dataset? What makes a number a good representation? The statistician (and data scientist ahead of his time) George Box once wrote “Essentially, all models are wrong, but some are useful.” A key step in data science is developing models that capture the essential signal in data while providing insight into the phenomena that govern the data and enable prediction effective prediction.  In this lecture we address the fundamental question of how to choose a number and more generally a model that reflects the data.  We will introduce the concept of loss functions and begin to develop basic models.
 
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0Bze55lezLJhIZ1ZKNHgtdFFvSTA
+    - name: pdf
+      url: https://drive.google.com/open?id=0Bze55lezLJhIQmRkcUlldkRia2c
+    - name: handout
+      url: https://drive.google.com/open?id=0Bze55lezLJhIZng2cURWWDhBdFE
+    - name: Estimation Notebook (html)
+      url: assets/notebooks/09-lec/Estimation.html
+    - name: Estimation Notebook (ipynb)
+      url: assets/notebooks/09-lec/Estimation.ipynb
+
 - date: 9/26/2017
   topic: Modeling and Estimation Continued
   lecturer: Gonzalez, Nolan
