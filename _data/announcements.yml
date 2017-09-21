@@ -1,5 +1,9 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 09/21/2017
+  text: |
+    - Project 1 checkpoint is due at 11:59PM Tues, Sept 26.
+    - Project 1 is released and is due at 11:59PM Tues, Oct 3.
 - date: 09/20/2017
   text: |
     - Project 1 is released.
