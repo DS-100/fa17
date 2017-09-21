@@ -8,10 +8,16 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 3: Data Cleaning and Seaborn](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab03.zip)
 
+[Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
+
 ## Discussions
 [Discussion 1: Python, Numpy, Matrix Operations, Calculus](https://docs.google.com/a/berkeley.edu/presentation/d/10XhhkYLemrVQQzo4QzkCz4TYF8bDdzwSWuq3UIQDb60/edit?usp=sharing)
 
 [Discussion 2: Sampling](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc02.zip)
+
+[Discussion 3: HW2 Recap, Data Cleaning, and EDA](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc03.zip)
+
+[Discussion 4: Visualizations](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc04.zip)
 
 
 ## Previous Semester's Materials
