@@ -1,5 +1,11 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 09/23/2017
+  text: |
+    - Vitamin 4 is released and is due Mon, Sept 25 at 11:59pm.
+    - Project 1 is released.
+      - The project checkpoint is due at 11:59PM Tues, Sept 26.
+      - The complete project is due at 11:59pm Tues, Oct 3.
 - date: 09/21/2017
   text: |
     - Project 1 is released.

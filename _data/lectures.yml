@@ -280,6 +280,8 @@
       url: assets/notebooks/09-lec/Estimation.ipynb
     - name: screencast
       url: https://www.youtube.com/watch?v=9PMF6R2lIl0
+  assignment: |
+    [Vitamin 4 Released](https://goo.gl/forms/oQYmB523kyOmuMcb2)
 
 - date: 9/26/2017
   topic: Modeling and Estimation Continued
