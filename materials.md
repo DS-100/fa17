@@ -10,7 +10,8 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
 
-[Lab 4 Released: Regular Expression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab05.zip)
+[Lab 5 Released: Regular Expression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab05.zip)
+
 
 ## Discussions
 [Discussion 1: Python, Numpy, Matrix Operations, Calculus](https://docs.google.com/a/berkeley.edu/presentation/d/10XhhkYLemrVQQzo4QzkCz4TYF8bDdzwSWuq3UIQDb60/edit?usp=sharing)
