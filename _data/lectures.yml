@@ -285,9 +285,17 @@
 
 - date: 9/26/2017
   topic: Modeling and Estimation Continued
-  lecturer: Gonzalez, Nolan
+  lecturer: Gonzalez
   description: |
     In this lecture we will continue our development of models within the framework of loss minimization.  In the process we will begin to study how loss minimization on the data relates to a broader goal of loss minimization on future predictions.  In the process we will review basic concepts in probability (distributions and expectations) and then introduce the concept of empirical risk minimization.
+
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0Bze55lezLJhIRTFiUmpSbXFQdUE
+    - name: pdf
+      url: https://drive.google.com/open?id=0Bze55lezLJhIRHhPcG51Q1FDMDg
+    - name: handout
+      url: https://drive.google.com/open?id=0Bze55lezLJhIUUlLbzJaN2JkZU0
 
   assignment: |
     Project 1 Checkpoint Due
