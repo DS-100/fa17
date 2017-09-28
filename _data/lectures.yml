@@ -305,11 +305,18 @@
     [Lab 5 Released: Regular Expression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab05.zip)
 
 - date: 9/28/2017
-  topic: The Bias Variance Trade-Off
-  lecturer: Gonzalez
+  topic: Population, Sample, and their connection
+  lecturer: Nolan
   description: |
-    In this lecture we will study two fundamental concepts in estimation: Bias and Variane.  We will examine the squared loss empirical risk minimizatin procedure and reveal this connection.
+    In this lecture we will study the connections between the population and the sample. We use probability theory, simulation and the bootstrap to make statements about these connections.
 
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5R0w0ZjhMNVp3RTg 
+    - name: pdf
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5TGhGN3JaS3djYms
+    - name: handout
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5Z19MNGVBU2o2Ums
 
 - date: 10/3/2017
   topic: Hypothesis Testing
