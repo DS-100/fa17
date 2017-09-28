@@ -127,7 +127,7 @@
       url: https://drive.google.com/open?id=0Bze55lezLJhISklOSHJyS0ZnMjA
     - name: handout
       url: https://drive.google.com/open?id=0Bze55lezLJhIRkRRWWRwdE13MVU
-    - name: optional reading 
+    - name: optional reading
       url: http://www.stat.cmu.edu/~hseltman/309/Book/chapter4.pdf
     - name: optional interesting tutorial
       url: https://www.datacamp.com/community/tutorials/exploratory-data-analysis-python
@@ -171,7 +171,7 @@
     [Vitamin 2 Released](https://goo.gl/forms/hDjtAL3nHxt0gIei2)
 
 - date: 9/12/2017
-  topic: Visualization and Data Tranformations 
+  topic: Visualization and Data Tranformations
   lecturer: Nolan
   description: |
     A large fraction of the human brain is devoted to visual perception.   As a
@@ -180,7 +180,7 @@
     informative and clear visualizations of complex concepts can be
     challenging.  In this lecture, we explore good and bad visualizations
     and describe how to choose visualizations for various kinds of data and
-    goals.  
+    goals.
 
   assignment: |
     [Lab 3 Released: Data cleaning and seaborn](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab03.zip)
@@ -202,17 +202,17 @@
       url: https://www.youtube.com/watch?v=48f_4nZIriA
 
 - date: 9/14/2017
-  topic: Visualization, Ctd.  
+  topic: Visualization, Ctd.
   lecturer: Nolan
   description: |
     Directly visualizing data can result in less informative for several reaasons:
-    plots as curvilinear relationships can be difficult to assess; 
-    large numbers of observations can hide core features; 
+    plots as curvilinear relationships can be difficult to assess;
+    large numbers of observations can hide core features;
     and it can be difficult to visualize large  numbers of variables.
-    In this lecture, we discuss techniques of data transformations, smoothing, and 
+    In this lecture, we discuss techniques of data transformations, smoothing, and
     dimensionality reduction to address challenges in creating informative
-    visualization. With these  additional analytics we can often reveal 
-    important and informative patterns in data. 
+    visualization. With these  additional analytics we can often reveal
+    important and informative patterns in data.
     We pick up with transformations.
 
   links:
@@ -253,62 +253,85 @@
       url: assets/notebooks/08-lec/regular_expression_examples.ipynb
     - name: data
       url: assets/notebooks/08-lec/data.zip
+    - name: screencast
+      url: https://www.youtube.com/watch?v=o6nj8q2nrg8
   assignment: |
-    Project 1 Part 1 Released: Twitter Analysis
+    [Project 1 Released: Twitter Analysis](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/proj1.zip)
+
+    [Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
+
 
 - date: 9/21/2017
-  topic: Estimation
+  topic: Modeling and Estimation
   lecturer: Gonzalez
   description: |
-    How do we pick a number to represent a dataset?  
-    What makes a number a good representation? The statistician (and data scientist ahead of his time) 
-    George Box once wrote “Essentially, all models are wrong, but some are useful.” 
-    A key step in data science is developing models that capture the essential signal in data while providing 
-    insight into the phenomena that govern the data and enable prediction effective prediction.  
-    In this lecture we address the fundamental question of how to choose a number and more generally a 
-    model that reflects the data.  In the process we develop the foundation of empirical risk minimization.
+    How do we pick a number to represent a dataset? What makes a number a good representation? The statistician (and data scientist ahead of his time) George Box once wrote “Essentially, all models are wrong, but some are useful.” A key step in data science is developing models that capture the essential signal in data while providing insight into the phenomena that govern the data and enable prediction effective prediction.  In this lecture we address the fundamental question of how to choose a number and more generally a model that reflects the data.  We will introduce the concept of loss functions and begin to develop basic models.
+
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0Bze55lezLJhIZ1ZKNHgtdFFvSTA
+    - name: pdf
+      url: https://drive.google.com/open?id=0Bze55lezLJhIQmRkcUlldkRia2c
+    - name: handout
+      url: https://drive.google.com/open?id=0Bze55lezLJhIZng2cURWWDhBdFE
+    - name: Estimation Notebook (html)
+      url: assets/notebooks/09-lec/Estimation.html
+    - name: Estimation Notebook (ipynb)
+      url: assets/notebooks/09-lec/Estimation.ipynb
+    - name: screencast
+      url: https://www.youtube.com/watch?v=9PMF6R2lIl0
+  assignment: |
+    [Vitamin 4 Released](https://goo.gl/forms/oQYmB523kyOmuMcb2)
 
 - date: 9/26/2017
-  topic: Model Estimation 
-  lecturer: Nolan
+  topic: Modeling and Estimation Continued
+  lecturer: Gonzalez
   description: |
-    How do we characterize a model estimation procedure?  In this lecture we
-    will continue our exploration of model estimation and examine how the
-    estimation procedure relates to the underlying distributions.  In
-    particular we will begin to explore the bias-variance trade-off.
+    In this lecture we will continue our development of models within the framework of loss minimization.  In the process we will begin to study how loss minimization on the data relates to a broader goal of loss minimization on future predictions.  In the process we will review basic concepts in probability (distributions and expectations) and then introduce the concept of empirical risk minimization.
+
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0Bze55lezLJhIRTFiUmpSbXFQdUE
+    - name: pdf
+      url: https://drive.google.com/open?id=0Bze55lezLJhIRHhPcG51Q1FDMDg
+    - name: handout
+      url: https://drive.google.com/open?id=0Bze55lezLJhIUUlLbzJaN2JkZU0
+    - name: screencast
+      url: https://www.youtube.com/watch?v=6iMXhTB4wDA
 
   assignment: |
-    Project 1 Part 2 Released: Twitter Analysis
+    Project 1 Checkpoint Due
+    
+    [Lab 5 Released: Regular Expression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab05.zip)
 
 - date: 9/28/2017
+  topic: The Bias Variance Trade-Off
+  lecturer: Gonzalez
+  description: |
+    In this lecture we will study two fundamental concepts in estimation: Bias and Variane.  We will examine the squared loss empirical risk minimizatin procedure and reveal this connection.
+
+
+- date: 10/3/2017
   topic: Hypothesis Testing
   lecturer: Nolan
   description: |
     A key step in inference is often answering a question about the world.  Are
-    students more likely to succeed if they study?  Answering these inferential
-    questions is hypothesis testing.  In this lecture we will examine a
-    collection non-parametric hypothesis tests.  These powerful procedures
-    build on the basic idea of random simulation to help quantify our certainty
-    in a particular conclusion.  In the process of using these procedures we
-    will also touch on the challenges of false discovery and multiple
-    hypothesis testing.
+      students more likely to succeed if they study?  Answering these inferential
+      questions is hypothesis testing.  In this lecture we will examine a
+      collection non-parametric hypothesis tests.  These powerful procedures
+      build on the basic idea of random simulation to help quantify our certainty
+      in a particular conclusion.  In the process of using these procedures we
+      will also touch on the challenges of false discovery and multiple
+      hypothesis testing.
 
-- date: 10/3/2017
-  topic: Least Squares Linear Regression
-  lecturer: Gonzalez
-  description: |
-    Modeling the relationships between variables is a common task in data
-    science and perhaps one of the most widely used models is linear
-    regression.  In this lecture we introduce least squares linear regression
-    through the lens of empirical risk minimization.
+  assignment: |
+    Project 1 Due
 
 - date: 10/5/2017
-  topic: Prediction Bias and Variance
-  lecturer: Gonzalez
+  topic: Hypothesis Testing Continued
+  lecturer: Nolan
   description: |
-    In this lecture we continue our introduction to least square linear
-    regression and provide a formal analysis of the bias and variance as it
-    relates to the least squares objective.
+
 
 - date: 10/10/2017
   topic: Midterm Review
