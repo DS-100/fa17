@@ -317,6 +317,8 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5TGhGN3JaS3djYms
     - name: handout
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5Z19MNGVBU2o2Ums
+    - name: screencast
+      url: https://www.youtube.com/watch?v=W7jSFDRyaZU
 
 - date: 10/3/2017
   topic: Hypothesis Testing
