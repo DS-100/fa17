@@ -21,6 +21,7 @@ description: "Labs and Discussion Notebooks"
 [Discussion 3: HW2 Recap, Data Cleaning, and EDA](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc03.zip)
 
 [Discussion 4: Visualizations](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc04.zip)
+/ [Slides](https://docs.google.com/a/berkeley.edu/presentation/d/16UvngsXFOnAJy5ubOoUjMFQLGNJu0raJJ7bte89m6lE/edit?usp=sharing)
 
 [Discussion 5: Regex](https://docs.google.com/a/berkeley.edu/presentation/d/1e3NllD0o3hk-B5VKxRvDc3gZMVA0pTXhImSny4rgYFw/edit?usp=sharing)
 
