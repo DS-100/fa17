@@ -319,21 +319,26 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5Z19MNGVBU2o2Ums
     - name: notes on probability and expectation
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5WUdaTmNqZ3NKTG8
+    - name: Estimation Notebook (html)
+      url: assets/notebooks/11-lec/estimator.html
+    - name: Estimation Notebook (ipynb)
+      url: assets/notebooks/11-lec/estimator.ipynb
     - name: screencast
       url: https://www.youtube.com/watch?v=W7jSFDRyaZU
 
 - date: 10/3/2017
-  topic: Hypothesis Testing
+  topic: Probability theory, Monte Carlo Simulation, and Bootstraping
   lecturer: Nolan
   description: |
-    A key step in inference is often answering a question about the world.  Are
-      students more likely to succeed if they study?  Answering these inferential
-      questions is hypothesis testing.  In this lecture we will examine a
-      collection non-parametric hypothesis tests.  These powerful procedures
-      build on the basic idea of random simulation to help quantify our certainty
-      in a particular conclusion.  In the process of using these procedures we
-      will also touch on the challenges of false discovery and multiple
-      hypothesis testing.
+   We saw in the last lecture that we can study parameter estimators using theoretical 
+   and computational approaches. In this lecture, we will delve deeper into the bootstrap
+   to study the behvaior of the empirical 75th percentile as an estimator for
+   its population counterpart.  We will derive the empirical quantile through optimization
+   of a loss function, show that the population paramter minimizes the expected loss,
+   bootstrap the sampling distribution of the empirical 75th percentile, and 
+   use the bootstrapped distribution to provide interval estimates 
+   for the population parameter. 
+   In addition, we will provide a more comprehensive review of basic probability.
 
   assignment: |
     Project 1 Due
@@ -342,6 +347,19 @@
   topic: Hypothesis Testing Continued
   lecturer: Nolan
   description: |
+    A key step in inference is often answering a question about the world. We will
+      consider 4 such questions to varying degrees of detail:  
+      1) Is there enough evidence to bring someone to trial?
+      2) Do female TAs get lower teaching evaluations than male TAs; 
+      3) Is there evidence of an earth-like planet orbiting a star? 
+      4) Do voters respond to social pressure? 
+      We use hypothesis testing to answer these questions.  
+      In particular, we examine a
+      collection non-parametric hypothesis tests.  These powerful procedures
+      build on the basic idea of random simulation to help quantify the rarity
+      of a particular phenomenon.  In the process of using these procedures we
+      will also touch on the challenges of false discovery and multiple
+      testing.
 
 
 - date: 10/10/2017
