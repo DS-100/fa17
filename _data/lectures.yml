@@ -334,7 +334,7 @@
    and computational approaches. In this lecture, we will delve deeper into the bootstrap
    to study the behvaior of the empirical 75th percentile as an estimator for
    its population counterpart.  We will derive the empirical quantile through optimization
-   of a loss function, show that the population paramter minimizes the expected loss,
+   of a loss function, show that the population parameter minimizes the expected loss,
    bootstrap the sampling distribution of the empirical 75th percentile, and 
    use the bootstrapped distribution to provide interval estimates 
    for the population parameter. 
@@ -350,7 +350,7 @@
     A key step in inference is often answering a question about the world. We will
       consider 4 such questions to varying degrees of detail:  
       1) Is there enough evidence to bring someone to trial?
-      2) Do female TAs get lower teaching evaluations than male TAs; 
+      2) Do female TAs get lower teaching evaluations than male TAs? 
       3) Is there evidence of an earth-like planet orbiting a star? 
       4) Do voters respond to social pressure? 
       We use hypothesis testing to answer these questions.  
