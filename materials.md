@@ -8,9 +8,9 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 3: Data Cleaning and Seaborn](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab03.zip)
 
-[Lab 4 Released: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
+[Lab 4: Plotting, smoothing, transformation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab04.zip)
 
-[Lab 5 Released: Regular Expression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab05.zip)
+[Lab 5: Regular Expression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab05.zip)
 
 [Lab 6 Released: Modeling and Estimation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab06.zip)
 
@@ -22,6 +22,9 @@ description: "Labs and Discussion Notebooks"
 [Discussion 3: HW2 Recap, Data Cleaning, and EDA](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc03.zip)
 
 [Discussion 4: Visualizations](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc04.zip)
+/ [Slides](https://docs.google.com/a/berkeley.edu/presentation/d/16UvngsXFOnAJy5ubOoUjMFQLGNJu0raJJ7bte89m6lE/edit?usp=sharing)
+
+[Discussion 5: Regex](https://docs.google.com/a/berkeley.edu/presentation/d/1e3NllD0o3hk-B5VKxRvDc3gZMVA0pTXhImSny4rgYFw/edit?usp=sharing)
 
 
 ## Previous Semester's Materials
