@@ -340,6 +340,14 @@
    for the population parameter. 
    In addition, we will provide a more comprehensive review of basic probability.
 
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5Slk0NWlsWDJGams
+    - name: pdf
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5T1RWQkszdGhGanc
+    - name: handout
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5ODF5SlpTYk5MWWc
+
   assignment: |
     Project 1 Due
 
