@@ -1,5 +1,8 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 10/04/2017
+  text: |
+    - Midterm is Thu, Oct 12 at 7:00-8:30PM.
 - date: 09/27/2017
   text: |
     - Project 1 is released.
