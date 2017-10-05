@@ -347,9 +347,13 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5T1RWQkszdGhGanc
     - name: handout
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5ODF5SlpTYk5MWWc
+    - name: screencast
+      url: https://www.youtube.com/watch?v=7XTrSBSO97g
 
   assignment: |
     Project 1 Due
+
+    [Lab 6 Released: Modeling and Estimation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab06.zip)
 
 - date: 10/5/2017
   topic: Hypothesis Testing 
