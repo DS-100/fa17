@@ -352,15 +352,14 @@
     Project 1 Due
 
 - date: 10/5/2017
-  topic: Hypothesis Testing Continued
+  topic: Hypothesis Testing 
   lecturer: Nolan
   description: |
     A key step in inference is often answering a question about the world. We will
       consider 4 such questions to varying degrees of detail:  
       1) Is there enough evidence to bring someone to trial?
-      2) Do female TAs get lower teaching evaluations than male TAs? 
-      3) Is there evidence of an earth-like planet orbiting a star? 
-      4) Do voters respond to social pressure? 
+      2) Is there evidence of an earth-like planet orbiting a star? 
+      3) Do female TAs get lower teaching evaluations than male TAs? 
       We use hypothesis testing to answer these questions.  
       In particular, we examine a
       collection non-parametric hypothesis tests.  These powerful procedures
@@ -369,6 +368,13 @@
       will also touch on the challenges of false discovery and multiple
       testing.
 
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5MGk2V3R2V1c4c3c
+    - name: pdf
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5ZXdlZldFT0c1ams
+    - name: handout
+      url: https://drive.google.com/open?id=0B7gkaDYGT5X5SHY2UV9sV04xQWM
 
 - date: 10/10/2017
   topic: Midterm Review
