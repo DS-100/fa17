@@ -385,10 +385,24 @@
 - date: 10/10/2017
   topic: Midterm Review
   lecturer: Gonzalez
+  description: |
+    This lecture will review key topics from the course that will be covered on the midterm.
+  links:
+    - name: pptx
+      url: https://drive.google.com/open?id=0Bze55lezLJhISEFzZy0zWnoxRkE
+    - name: pdf
+      url: https://drive.google.com/open?id=0Bze55lezLJhIb2FlTzRhbndXMUU
+    - name: handout
+      url: https://drive.google.com/open?id=0Bze55lezLJhIZVo3dXU4SDFDZ28
+
 
 - date: 10/12/2017
   topic: Midterm
-  lecturer: Gonzalez
+  lecturer: Gonzalez and Nolan
+  description: |
+    There is NO LECTURE today.  The midterm will be held at 7:00 in Dwinelle 145 and 155.
+
+ 
 
 - date: 10/17/2017
   topic: Introduction to SQL and the Relational Model
