@@ -71,6 +71,8 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5RDJXank5T0FYcHc
     - name: random sampling notes
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5Y1RqMG12TU1wMlU
+    - name: random sampling notes (typed)
+      url: assets/notes/2.pdf
     - name: screencast
       url: https://www.youtube.com/watch?v=eKsn-6ssC-w
 
@@ -319,6 +321,8 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5Z19MNGVBU2o2Ums
     - name: notes on probability and expectation
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5WUdaTmNqZ3NKTG8
+    - name: notes on probability and expectation (typed)
+      url: assets/notes/11.pdf
     - name: Estimation Notebook (html)
       url: assets/notebooks/11-lec/estimator.html
     - name: Estimation Notebook (ipynb)
