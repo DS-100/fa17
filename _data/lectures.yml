@@ -353,6 +353,12 @@
       url: https://drive.google.com/open?id=0B7gkaDYGT5X5ODF5SlpTYk5MWWc
     - name: screencast
       url: https://www.youtube.com/watch?v=7XTrSBSO97g
+    - name: Bootstrap Reading (Inferential Thinking)
+      url: https://www.inferentialthinking.com/chapters/11/2/bootstrap.html
+    - name: Confidence Intervals Reading (Inferential Thinking)
+      url: https://www.inferentialthinking.com/chapters/11/3/confidence-intervals.html
+
+
 
   assignment: |
     Project 1 Due
@@ -398,6 +404,12 @@
       url: https://drive.google.com/open?id=0Bze55lezLJhIb2FlTzRhbndXMUU
     - name: handout
       url: https://drive.google.com/open?id=0Bze55lezLJhIZVo3dXU4SDFDZ28
+    - name: practice midterm 
+      url: assets/midterm/practice-midterm.pdf
+    - name: practice midterm with solutions 
+      url: assets/midterm/practice-midterm-solutions.pdf
+  
+
 
 
 - date: 10/12/2017
