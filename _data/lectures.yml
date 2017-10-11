@@ -405,10 +405,10 @@
     - name: handout
       url: https://drive.google.com/open?id=0Bze55lezLJhIZVo3dXU4SDFDZ28
     - name: practice midterm 
-      url: assets/midterm/practice-midterm.pdf
+      url: assets/exams/midterm/practice-midterm.pdf
     - name: practice midterm with solutions 
-      url: assets/midterm/practice-midterm-solutions.pdf
-  
+      url: assets/exams/midterm/practice-midterm-solutions.pdf
+
 
 
 
