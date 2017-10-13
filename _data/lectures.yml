@@ -410,17 +410,14 @@
       url: assets/exams/midterm/practice-midterm.pdf
     - name: practice midterm with solutions 
       url: assets/exams/midterm/practice-midterm-solutions.pdf
-
-
-
+    - name: screencast
+      url: https://www.youtube.com/watch?v=25MiYCZjuXo
 
 - date: 10/12/2017
   topic: Midterm
   lecturer: Gonzalez and Nolan
   description: |
     There is NO LECTURE today.  The midterm will be held at 7:00 in Dwinelle 145 and 155.
-
- 
 
 - date: 10/17/2017
   topic: Introduction to SQL and the Relational Model
