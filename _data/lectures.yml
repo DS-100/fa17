@@ -447,6 +447,8 @@
       url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
     - name: FEC Data Prep (coming soon!)
       url: broken_link
+[Lab 7 Released: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
+
 
 - date: 10/19/2017
   topic: More Advanced SQL
@@ -454,6 +456,8 @@
   description: |
     In this lecture we continue to dig into more advanced SQL expressions.  We
     will introduce common table expressions, group by, and join operations.
+
+
 
 - date: 10/24/2017
   topic: Feature Engineering
