@@ -12,9 +12,9 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 5: Regular Expression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab05.zip)
 
-[Lab 6 Released: Modeling and Estimation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab06.zip)
+[Lab 6: Modeling and Estimation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab06.zip)
 
-[Lab 7 Released: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
+[Lab 7: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
 
 
 ## Practice Exam Questions
