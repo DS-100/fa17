@@ -360,8 +360,6 @@
     - name: Solving Loss Functions Notes
       url: https://drive.google.com/drive/u/1/folders/0Bx9y38K_MFqAVkY4bkI4MHNNVVk
 
-
-
   assignment: |
     Project 1 Due
 
@@ -447,8 +445,10 @@
       url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
     - name: FEC Data Prep (coming soon!)
       url: broken_link
-   assignment:
-       [Lab 7 Released: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
+
+  assignment: |
+
+    [Lab 7 Released: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
 
 - date: 10/19/2017
   topic: More Advanced SQL
