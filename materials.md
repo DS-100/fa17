@@ -29,6 +29,7 @@ description: "Labs and Discussion Notebooks"
 
 [Discussion 5: Regex](https://docs.google.com/a/berkeley.edu/presentation/d/1e3NllD0o3hk-B5VKxRvDc3gZMVA0pTXhImSny4rgYFw/edit?usp=sharing)
 
+[Discussion 6: Estimation & Convexity](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc06.zip)
 
 ## Previous Semester's Materials
 
