@@ -1,2 +1,4 @@
-_site/
+.texpadtemp/
 .DS_Store
+.texpadtmp
+_site
