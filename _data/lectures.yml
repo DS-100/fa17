@@ -424,10 +424,29 @@
   lecturer: Gonzalez
   description: |
     SQL is the most widely used language for accessing and manipulating data.
-    In this lecture we introduce the SQL language and more broadly the
-    Relational Model of data.  We will describe some of the basic SQL
+    In this lecture we introduce the SQL language and more the
+    Relational model of data.  We will describe some of the basic SQL
     operations and provide some motivation behind the relational model of
     tabular data.
+  links:
+    - name: pptx (draft)
+      url: https://drive.google.com/open?id=0Bze55lezLJhIaEpaYXA5ak14UGM
+    - name: pdf (draft)
+      url: https://drive.google.com/open?id=0Bze55lezLJhIWG1kV1lRVmp0QVk
+    - name: handout (draft)
+      url: https://drive.google.com/open?id=0Bze55lezLJhIWG1kV1lRVmp0QVk
+    - name: Notebook HTML
+      url: assets/notebooks/15-lec/SQL_Exercise.html
+    - name: Notebook ipynb
+      url: assets/notebooks/15-lec/SQL_Exercise.ipynb
+    - name: PostgreSQL for Mac
+      url: https://postgresapp.com
+    - name: PostgreSQL for Windows
+      url: https://www.postgresql.org/download/windows/
+    - name: PostgreSQL for Linux
+      url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
+    - name: FEC Data Prep (coming soon!)
+      url: broken_link
 
 - date: 10/19/2017
   topic: More Advanced SQL
