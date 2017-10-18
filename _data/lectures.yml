@@ -445,6 +445,8 @@
       url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
     - name: FEC Data Prep (coming soon!)
       url: broken_link
+    - name: screencast
+      url: https://www.youtube.com/watch?v=iOZaohMSijk
 
   assignment: |
 
