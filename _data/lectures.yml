@@ -428,15 +428,15 @@
     tabular data.
   links:
     - name: pptx (draft)
-      url: https://drive.google.com/open?id=0Bze55lezLJhIaEpaYXA5ak14UGM
+      url: https://drive.google.com/open?id=0Bze55lezLJhIaU9wZ3YzNlhyM0E
     - name: pdf (draft)
-      url: https://drive.google.com/open?id=0Bze55lezLJhIWG1kV1lRVmp0QVk
+      url: https://drive.google.com/open?id=0Bze55lezLJhIbHc4cWtYblk2dnM
     - name: handout (draft)
-      url: https://drive.google.com/open?id=0Bze55lezLJhIWG1kV1lRVmp0QVk
+      url: https://drive.google.com/open?id=0Bze55lezLJhIX1ZaU2JkclJ6LVU
     - name: Notebook HTML
-      url: assets/notebooks/15-lec/SQL_Exercise.html
+      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.html
     - name: Notebook ipynb
-      url: assets/notebooks/15-lec/SQL_Exercise.ipynb
+      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.ipynb
     - name: PostgreSQL for Mac
       url: https://postgresapp.com
     - name: PostgreSQL for Windows
