@@ -443,6 +443,8 @@
       url: https://www.postgresql.org/download/windows/
     - name: PostgreSQL for Linux
       url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
+    - name: W3C Tutorial
+      url: https://www.w3schools.com/sql/default.asp
     - name: FEC Data Prep (coming soon!)
       url: broken_link
     - name: screencast
