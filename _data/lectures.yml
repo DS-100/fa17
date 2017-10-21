@@ -445,8 +445,6 @@
       url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
     - name: W3C Tutorial
       url: https://www.w3schools.com/sql/default.asp
-    - name: FEC Data Prep (coming soon!)
-      url: broken_link
     - name: screencast
       url: https://www.youtube.com/watch?v=iOZaohMSijk
   assignment: |
@@ -469,6 +467,12 @@
     url: assets/notebooks/16-lec/SQL_Exercise_Part_2.html
   - name: Notebook ipynb
     url: assets/notebooks/16-lec/SQL_Exercise_Part_2.ipynb
+  - name: The FEC SQL Data (Students and Sailors inlcuded)
+    url: https://drive.google.com/open?id=0Bze55lezLJhIMi1PMUVxZjhyRkU
+  - name: Loading the SQL Dump
+    url: https://www.postgresql.org/docs/9.1/static/backup-dump.html
+  assignment: |
+    [Vitamin 7 Released](https://goo.gl/forms/6gEeh8fujqcpNVbA3)
   
 
 - date: 10/24/2017
