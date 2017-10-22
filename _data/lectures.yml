@@ -471,6 +471,8 @@
     url: https://drive.google.com/open?id=0Bze55lezLJhIMi1PMUVxZjhyRkU
   - name: Loading the SQL Dump
     url: https://www.postgresql.org/docs/9.1/static/backup-dump.html
+  - name: screencast
+    url: https://www.youtube.com/watch?v=KNRVdz5H3-8
   assignment: |
     [Vitamin 7 Released](https://goo.gl/forms/6gEeh8fujqcpNVbA3)
   
