@@ -360,8 +360,6 @@
     - name: Solving Loss Functions Notes
       url: https://drive.google.com/drive/u/1/folders/0Bx9y38K_MFqAVkY4bkI4MHNNVVk
 
-
-
   assignment: |
     Project 1 Due
 
@@ -424,25 +422,75 @@
   lecturer: Gonzalez
   description: |
     SQL is the most widely used language for accessing and manipulating data.
-    In this lecture we introduce the SQL language and more broadly the
-    Relational Model of data.  We will describe some of the basic SQL
+    In this lecture we introduce the SQL language and more the
+    Relational model of data.  We will describe some of the basic SQL
     operations and provide some motivation behind the relational model of
-    tabular data.
+    tabular data. (Lecture updated 10/18/2017.)
+  links:
+    - name: pptx 
+      url: https://drive.google.com/open?id=0Bze55lezLJhIaU9wZ3YzNlhyM0E
+    - name: pdf 
+      url: https://drive.google.com/open?id=0Bze55lezLJhIbHc4cWtYblk2dnM
+    - name: handout 
+      url: https://drive.google.com/open?id=0Bze55lezLJhIX1ZaU2JkclJ6LVU
+    - name: Notebook HTML
+      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.html
+    - name: Notebook ipynb
+      url: assets/notebooks/15-lec/SQL_Exercise_Part_1.ipynb
+    - name: PostgreSQL for Mac
+      url: https://postgresapp.com
+    - name: PostgreSQL for Windows
+      url: https://www.postgresql.org/download/windows/
+    - name: PostgreSQL for Linux
+      url: http://lmgtfy.com/?q=Install+PostgreSQL+on+Linux
+    - name: W3C Tutorial
+      url: https://www.w3schools.com/sql/default.asp
+    - name: screencast
+      url: https://www.youtube.com/watch?v=iOZaohMSijk
+  assignment: |
+    [Lab 7 Released: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
+
 
 - date: 10/19/2017
   topic: More Advanced SQL
   lecturer: Gonzalez
   description: |
-    In this lecture we continue to dig into more advanced SQL expressions.  We
-    will introduce common table expressions, group by, and join operations.
+    In this lecture we continue to dig into more advanced SQL expressions.  We will introduce common table expressions, group by, and join operations and explore FEC data.
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=0Bze55lezLJhIVko4WXNGbHVIOUE
+  - name: pdf 
+    url: https://drive.google.com/open?id=0Bze55lezLJhId1ZRWmpCeUJjWjg
+  - name: handout 
+    url: https://drive.google.com/open?id=0Bze55lezLJhIVVVQMXVLZ0xSTEk
+  - name: Notebook HTML
+    url: assets/notebooks/16-lec/SQL_Exercise_Part_2.html
+  - name: Notebook ipynb
+    url: assets/notebooks/16-lec/SQL_Exercise_Part_2.ipynb
+  - name: The FEC SQL Data (Students and Sailors inlcuded)
+    url: https://drive.google.com/open?id=0Bze55lezLJhIMi1PMUVxZjhyRkU
+  - name: Loading the SQL Dump
+    url: https://www.postgresql.org/docs/9.1/static/backup-dump.html
+  assignment: |
+    [Vitamin 7 Released](https://goo.gl/forms/6gEeh8fujqcpNVbA3)
+  
 
 - date: 10/24/2017
-  topic: Feature Engineering
+  topic: Big Data Part 1
   lecturer: Gonzalez
+  description: |
+    Data management at the level of big organizations cna be confusing and often relies on many different technologies. 
+    In this lecture we will provide an overview of organizational data management and introduce some of the key technologies 
+    used to store and compute on data at scale.  
+
 
 - date: 10/26/2017
-  topic: Overfitting
-  lecturer: Gonzalez
+  topic: P-Hacking
+  lecturer: Guest Lecturer Aaditya Ramdas 
+  description: |
+    **Tentative Description:** Almost daily, internet companies make decisions to change and update their website or app. As  simple examples, Google may run tests to see if users prefer their ads on the top or on the side of the page, where the Facebook like button should be placed or what it’s size should be, whether the default setting when you open the Uber/Lyft app should be “Pool” or “Solo” or “Luxury”, and so on. 
+
+      After running “A/B” tests at some prescribed level of confidence, companies sometimes make decisions to alter their current website or app, in the hope of more money or clicks.  What proportion of these decisions (to change some feature, based on an A/B test) are “mistakes"? What might cause these mistakes in the first place? Is it even possible to track the number or fraction of bad decisions? We will gently introduce ideas in sequential testing, false discovery rate, and discuss why some of the answers can be quite subtle.
 
 - date: 10/31/2017
   topic: Regularization
