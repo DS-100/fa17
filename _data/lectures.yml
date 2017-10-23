@@ -495,38 +495,39 @@
       After running “A/B” tests at some prescribed level of confidence, companies sometimes make decisions to alter their current website or app, in the hope of more money or clicks.  What proportion of these decisions (to change some feature, based on an A/B test) are “mistakes"? What might cause these mistakes in the first place? Is it even possible to track the number or fraction of bad decisions? We will gently introduce ideas in sequential testing, false discovery rate, and discuss why some of the answers can be quite subtle.
 
 - date: 10/31/2017
-  topic: Regularization
-  lecturer: Gonzalez
+  topic: Linear Models and Feature Engineering.
+  lecturer: Nolan
 
 - date: 11/2/2017
-  topic: Classification
-  lecturer: Nolan
+  topic: Over fitting, Cross-validation, and Regularization
+  lecturer: Gonzalez
 
 - date: 11/7/2017
-  topic: Method of Maximum Likelihood
-  lecturer: Nolan
+  topic: Over fitting, Cross-validation, and Regularization, Ctd.
+  lecturer: Gonzalez
 
 - date: 11/9/2017
-  topic: Logistic Regression
+  topic: Maximum Likelihood  
   lecturer: Nolan
 
 - date: 11/14/2017
-  topic: Gradient Descent
+  topic: Classification and Logistic Regression 
   lecturer: Nolan
 
 - date: 11/16/2017
-  topic: Bagging
-  lecturer: Nolan
+  topic: Logisitc Regression and Gradient Descent
+  lecturer: Gonzalez
 
 - date: 11/21/2017
-  topic: TBD
+  topic: HTTP requests, REST, Recursive crawling
+  Lecturer: Nolan
 
 - date: 11/23/2017
   topic: Holiday!!
 
 - date: 11/28/2017
-  topic: Big Data Ecosystem
-  lecturer: Gonzalez
+  topic: JSON, the Document Object Model, and XPath
+  lecturer: Nolan
 
 - date: 11/30/2017
   topic: Spark
