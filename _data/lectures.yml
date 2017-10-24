@@ -485,7 +485,18 @@
   description: |
     Data management at the level of big organizations cna be confusing and often relies on many different technologies. 
     In this lecture we will provide an overview of organizational data management and introduce some of the key technologies 
-    used to store and compute on data at scale.  
+    used to store and compute on data at scale. Time permitting we will dive into some basic Spark programming. 
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=0Bze55lezLJhITGI4MnI4RTN2bHc
+  - name: pdf 
+    url: https://drive.google.com/open?id=0Bze55lezLJhIc0NVbFlNSHlIT1U
+  - name: handout 
+    url: https://drive.google.com/open?id=0Bze55lezLJhIYzc1RkJzRWczTWs
+  - name: Spark Notebook HTML (tentative)
+    url: assets/notebooks/17-lec/Spark.html
+  - name: Spark Notebook ipynb (tentative)
+    url: assets/notebooks/17-lec/Spark.ipynb
 
 
 - date: 10/26/2017
