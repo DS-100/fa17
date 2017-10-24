@@ -16,7 +16,6 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 7: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
 
-
 ## Practice Exam Questions
 [Midterm](assets/exams/midterm/midterm.pdf)
 
