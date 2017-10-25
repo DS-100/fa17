@@ -502,6 +502,8 @@
     url: assets/notebooks/17-lec/Spark.html
   - name: Spark Notebook ipynb (tentative)
     url: assets/notebooks/17-lec/Spark.ipynb
+  - name: screencast
+    url: https://www.youtube.com/watch?v=UAuRFpEH8mc
   assignment: |
     [Lab 8 Released: SQL and Database Setup](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab08.zip)
 
