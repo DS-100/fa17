@@ -515,7 +515,7 @@
 
       After running “A/B” tests at some prescribed level of confidence, companies sometimes make decisions to alter their current website or app, in the hope of more money or clicks.  What proportion of these decisions (to change some feature, based on an A/B test) are “mistakes"? What might cause these mistakes in the first place? Is it even possible to track the number or fraction of bad decisions? We will gently introduce ideas in sequential testing, false discovery rate, and discuss why some of the answers can be quite subtle.
   links:
-  - name: pptx 
+  - name: pdf 
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5c245RV93MVRRSjQ
 
 - date: 10/31/2017
