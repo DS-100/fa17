@@ -33,7 +33,7 @@ description: "Labs and Discussion Notebooks"
 
 [Discussion 6: Estimation & Convexity](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc06.zip)
 
-[Discussion 6: SQL](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc07.zip)
+[Discussion 7: SQL](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc07.zip)
 
 ## Previous Semester's Materials
 

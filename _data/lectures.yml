@@ -488,7 +488,7 @@
   topic: Big Data Part 1
   lecturer: Gonzalez
   description: |
-    Data management at the level of big organizations cna be confusing and often relies on many different technologies. 
+    Data management at the level of big organizations can be confusing and often relies on many different technologies. 
     In this lecture we will provide an overview of organizational data management and introduce some of the key technologies 
     used to store and compute on data at scale. Time permitting we will dive into some basic Spark programming. 
   links:
@@ -517,6 +517,8 @@
   links:
   - name: pdf 
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5c245RV93MVRRSjQ
+  - name: screencast
+    url: https://www.youtube.com/watch?v=wGcjGH-zIL4
   assignment: |
     [Homework 5 Released: SQL, FEC Data, and Small Donors](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw5.zip)
 
