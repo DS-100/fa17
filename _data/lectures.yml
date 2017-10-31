@@ -542,39 +542,39 @@
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5U180ZW4ta1JONnc
 
 - date: 11/2/2017
+  topic: Linear Models
+  lecturer: Nolan
+
+- date: 11/7/2017
   topic: Over fitting, Cross-validation, and Regularization
   lecturer: Gonzalez
 
-- date: 11/7/2017
+- date: 11/9/2017
   topic: Over fitting, Cross-validation, and Regularization, Ctd.
   lecturer: Gonzalez
 
-- date: 11/9/2017
+- date: 11/14/2017
   topic: Maximum Likelihood  
   lecturer: Nolan
 
-- date: 11/14/2017
+- date: 11/16/2017
   topic: Classification and Logistic Regression 
   lecturer: Nolan
 
-- date: 11/16/2017
-  topic: Logisitc Regression and Gradient Descent
-  lecturer: Gonzalez
-
 - date: 11/21/2017
-  topic: HTTP requests, REST, Recursive crawling
-  lecturer: Nolan
+  topic: Logistic Regression and Gradient Descent
+  lecturer: Gonzalez
 
 - date: 11/23/2017
   topic: Holiday!!
 
 - date: 11/28/2017
-  topic: JSON, the Document Object Model, and XPath
+  topic: HTTP requests, REST, Recursive crawling
   lecturer: Nolan
 
 - date: 11/30/2017
-  topic: Spark
-  lecturer: Gonzalez
+  topic: JSON, the Document Object Model, and XPath
+  lecturer: Nolan
 
 - date: 12/5/2017
   topic: RRR Review
