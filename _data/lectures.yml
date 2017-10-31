@@ -511,9 +511,9 @@
   topic: P-Hacking
   lecturer: Guest Lecturer Aaditya Ramdas 
   description: |
-    **Tentative Description:** Almost daily, internet companies make decisions to change and update their website or app. As  simple examples, Google may run tests to see if users prefer their ads on the top or on the side of the page, where the Facebook like button should be placed or what it’s size should be, whether the default setting when you open the Uber/Lyft app should be “Pool” or “Solo” or “Luxury”, and so on. 
+    Almost daily, internet companies make decisions to change and update their website or app. As  simple examples, Google may run tests to see if users prefer their ads on the top or on the side of the page, where the Facebook like button should be placed or what it’s size should be, whether the default setting when you open the Uber/Lyft app should be “Pool” or “Solo” or “Luxury”, and so on. 
 
-      After running “A/B” tests at some prescribed level of confidence, companies sometimes make decisions to alter their current website or app, in the hope of more money or clicks.  What proportion of these decisions (to change some feature, based on an A/B test) are “mistakes"? What might cause these mistakes in the first place? Is it even possible to track the number or fraction of bad decisions? We will gently introduce ideas in sequential testing, false discovery rate, and discuss why some of the answers can be quite subtle.
+    After running “A/B” tests at some prescribed level of confidence, companies sometimes make decisions to alter their current website or app, in the hope of more money or clicks.  What proportion of these decisions (to change some feature, based on an A/B test) are “mistakes"? What might cause these mistakes in the first place? Is it even possible to track the number or fraction of bad decisions? We will gently introduce ideas in sequential testing, false discovery rate, and discuss why some of the answers can be quite subtle.
   links:
   - name: pdf 
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5c245RV93MVRRSjQ
@@ -523,8 +523,19 @@
     [Homework 5 Released: SQL, FEC Data, and Small Donors](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw5.zip)
 
 - date: 10/31/2017
-  topic: Linear Models and Feature Engineering.
+  topic: Finish P-Hacking and Spark and then begin Linear Models
   lecturer: Nolan
+  description: |
+    **Wrap-up:** Our guest lecturer will finish discussing p-hacking (despite cool name this actually a bad thing.) We will also finish our Spark and big-data processing.  We will then transition to linear models. 
+
+    Linear models are the basic building block of most predictive models in machine learning and statistics.  In this lecture we will introduce the basic concepts in linear modeling and begin to derive the generic optimal estimator for linear models. 
+  links:
+  - name: previous pdf 
+    url: https://drive.google.com/open?id=0B7gkaDYGT5X5c245RV93MVRRSjQ
+  - name: Previous Spark Notebook HTML (tentative)
+    url: assets/notebooks/17-lec/Spark.html
+  - name: Previous Spark Notebook ipynb (tentative)
+    url: assets/notebooks/17-lec/Spark.ipynb
 
 - date: 11/2/2017
   topic: Over fitting, Cross-validation, and Regularization
