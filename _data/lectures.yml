@@ -540,6 +540,8 @@
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5YXBaM1FpNDQ4X2c
   - name: Linear models ppptx 
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5U180ZW4ta1JONnc
+  - name: screencast
+    url: https://www.youtube.com/watch?v=lmlj9SH6-4w
   assignment: |
     [Lab 9 Released: Spark](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab09.zip)
 
