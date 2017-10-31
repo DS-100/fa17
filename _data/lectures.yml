@@ -526,7 +526,7 @@
   topic: Finish P-Hacking and Spark and then begin Linear Models
   lecturer: Ramdas, Gonzalez, Nolan
   description: |
-    **Wrap-up:** Our guest lecturer will finish discussing p-hacking (despite cool name this actually a bad thing.) We will also finish covering Spark and big-data processing.  We will then transition to linear models. 
+    **Wrap-up:** Our guest lecturer will finish discussing p-hacking (despite the very cool name this actually a bad thing.) We will also finish covering Spark and big-data processing.  We will then transition to linear models. 
 
     Linear models are the basic building block of most predictive models in machine learning and statistics.  In this lecture we will introduce the basic concepts in linear modeling and begin to derive the generic optimal estimator for linear models. 
   links:
