@@ -16,6 +16,11 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 7: Bootstrap](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab07.zip)
 
+[Lab 8: SQL and Database Setup] (https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab08.zip)
+
+[Lab 9: Spark] (https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab09.zip)
+
+
 ## Practice Exam Questions
 [Midterm](assets/exams/midterm/midterm.pdf)
 
