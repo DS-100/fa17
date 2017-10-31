@@ -511,16 +511,22 @@
   topic: P-Hacking
   lecturer: Guest Lecturer Aaditya Ramdas 
   description: |
-    **Tentative Description:** Almost daily, internet companies make decisions to change and update their website or app. As  simple examples, Google may run tests to see if users prefer their ads on the top or on the side of the page, where the Facebook like button should be placed or what it’s size should be, whether the default setting when you open the Uber/Lyft app should be “Pool” or “Solo” or “Luxury”, and so on. 
+    Almost daily, internet companies make decisions to change and update their website or app. As  simple examples, Google may run tests to see if users prefer their ads on the top or on the side of the page, where the Facebook like button should be placed or what it’s size should be, whether the default setting when you open the Uber/Lyft app should be “Pool” or “Solo” or “Luxury”, and so on. 
 
-      After running “A/B” tests at some prescribed level of confidence, companies sometimes make decisions to alter their current website or app, in the hope of more money or clicks.  What proportion of these decisions (to change some feature, based on an A/B test) are “mistakes"? What might cause these mistakes in the first place? Is it even possible to track the number or fraction of bad decisions? We will gently introduce ideas in sequential testing, false discovery rate, and discuss why some of the answers can be quite subtle.
+      After running "A/B" tests at some prescribed level of confidence, companies sometimes make decisions to alter their current website or app, in the hope of more money or clicks.  What proportion of these decisions (to change some feature, based on an A/B test) are “mistakes"? What might cause these mistakes in the first place? Is it even possible to track the number or fraction of bad decisions? We will gently introduce ideas in sequential testing, false discovery rate, and discuss why some of the answers can be quite subtle.
   links:
   - name: pdf 
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5c245RV93MVRRSjQ
 
 - date: 10/31/2017
   topic: Linear Models and Feature Engineering.
-  lecturer: Nolan
+  lecturer: Ramdas, Gonzalez, Nolan
+  description: Last week's lectures will be completed today. Then, we introduce simple linear regression.
+  links:
+  - name: pdf 
+    url: https://drive.google.com/open?id=0B7gkaDYGT5X5YXBaM1FpNDQ4X2c
+  - name: ppptx 
+    url: https://drive.google.com/open?id=0B7gkaDYGT5X5U180ZW4ta1JONnc
 
 - date: 11/2/2017
   topic: Over fitting, Cross-validation, and Regularization
