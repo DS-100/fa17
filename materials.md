@@ -40,6 +40,8 @@ description: "Labs and Discussion Notebooks"
 
 [Discussion 7: SQL](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc07.zip)
 
+[Discussion 8: P-values & P-hacking](https://docs.google.com/a/berkeley.edu/presentation/d/18F5ERbcXTfiTUpThrOeYHAqaLXa7G8XgehHkW2nmExA/edit?usp=sharing)
+
 ## Previous Semester's Materials
 
 You can take a look at materials from the previous semester [github repository](https://github.com/DS-100/sp17/tree/master/materials).

@@ -548,6 +548,9 @@
 - date: 11/2/2017
   topic: Linear Models
   lecturer: Nolan
+  links: 
+  - name: screencast
+    url: https://www.youtube.com/watch?v=AQ-dNSVXZgQ
 
 - date: 11/7/2017
   topic: Over fitting, Cross-validation, and Regularization
