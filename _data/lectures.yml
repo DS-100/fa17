@@ -548,7 +548,13 @@
 - date: 11/2/2017
   topic: Linear Models
   lecturer: Nolan
+  description: |
+    Linear regression is at the foundation of most machine learning and statistical methods. 
+    In this lecture we introduce least squares linear regression and derive the normal equations from a geometric perspective. 
+
   links: 
+  - name: chalk board
+    url: assets/notes/lec21_chalkboard/chalk_board.pdf
   - name: screencast
     url: https://www.youtube.com/watch?v=AQ-dNSVXZgQ
 
