@@ -581,7 +581,10 @@
     url: assets/notebooks/22-lec/Feature_Engineering.html
   - name: Raw ipynb Files and Data
     url: assets/notebooks/22-lec/linreg_and_features.zip
-  
+  assignment: |
+    [Lab 10 Released: Least Squares Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab10.zip)
+
+
 - date: 11/9/2017
   topic: Over fitting, Cross-validation, and Regularization, Ctd.
   lecturer: Gonzalez

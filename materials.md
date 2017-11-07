@@ -20,6 +20,7 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 9: Spark](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab09.zip)
 
+[Lab 10: Least Squares Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab10.zip)
 
 ## Practice Exam Questions
 [Midterm](assets/exams/midterm/midterm.pdf)
