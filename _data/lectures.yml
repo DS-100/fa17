@@ -559,9 +559,29 @@
     url: https://www.youtube.com/watch?v=AQ-dNSVXZgQ
 
 - date: 11/7/2017
-  topic: Over fitting, Cross-validation, and Regularization
+  topic: Linear Regression and Feature Engineering
   lecturer: Gonzalez
-
+  description: |
+    How do we fit linear models to non-linear and often categorical data?  
+    In this lecture we will continue our discussion of least squares linear regression. 
+    We will revist the normal equations from the perspective of optimization and discuss some
+    of the computational issues around solving the normal equations.  We will then transition
+    to the task of feature engineering and describe a range of techniques for transforming data 
+    to enable linear models to fit complex relationships.
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=14D9IkRSojndeGNxoo537PCGrAGx2QI3i
+  - name: pdf 
+    url: https://drive.google.com/open?id=1kkUJ0TuhDfik2CLqYNfQpHPc9TNdbGn8
+  - name: handout 
+    url: https://drive.google.com/open?id=14D9IkRSojndeGNxoo537PCGrAGx2QI3i
+  - name: Linear Regression Notebook HTML
+    url: assets/notebooks/22-lec/LeastSquares.html
+  - name: Feature Engineering Notebook HTML
+    url: assets/notebooks/22-lec/Feature_Engineering.html
+  - name: Raw ipynb Files and Data
+    url: assets/notebooks/22-lec/linreg_and_features.zip
+  
 - date: 11/9/2017
   topic: Over fitting, Cross-validation, and Regularization, Ctd.
   lecturer: Gonzalez
