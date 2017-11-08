@@ -1,5 +1,8 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 11/8/2017
+  text: |
+    - NEW: Homework 5 is released and is due Wed, Nov 8th at 11:59PM.
 - date: 10/28/2017
   text: |
     - Homework 5 is released and is due Tue, Nov 7th at 11:59PM. 
