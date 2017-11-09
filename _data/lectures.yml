@@ -587,8 +587,13 @@
     [Lab 10 Released: Least Squares Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab10.zip)
 
 - date: 11/9/2017
-  topic: Over fitting, Cross-validation, and Regularization, Ctd.
-  lecturer: Gonzalez
+  topic: Over fitting, Cross-validation, and Dta Science Life Cycle
+  lecturer: Nolan
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=1JWPv3KV42JqQDTcK9p9PVpq9QS6y43Ox
+  - name: pdf 
+    url: https://drive.google.com/open?id=12aLD_EVRpQsoSUpZQBDGrxNNiT0zleL7
   assignment: |
     [Homework 6 Released: Spark and Least Squares Linear Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw6.zip)
 
