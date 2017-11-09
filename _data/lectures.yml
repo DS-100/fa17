@@ -523,12 +523,11 @@
     [Homework 5 Released: SQL, FEC Data, and Small Donors](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw5.zip)
 
 - date: 10/31/2017
-  topic: Finish P-Hacking and Spark and then begin Linear Models
-  lecturer: Ramdas, Gonzalez, Nolan
+  topic: Finish P-Hacking and Spark 
+  lecturer: Ramdas, Gonzalez
   description: |
-    **Wrap-up:** Our guest lecturer will finish discussing p-hacking (despite the very cool name this actually a bad thing.) We will also finish covering Spark and big-data processing.  We will then transition to linear models. 
+    **Wrap-up:** Our guest lecturer will finish discussing p-hacking (despite the very cool name this actually a bad thing.) We will also finish covering Spark and big-data processing.
 
-    Linear models are the basic building block of most predictive models in machine learning and statistics.  In this lecture we will introduce the basic concepts in linear modeling and begin to derive the generic optimal estimator for linear models. 
   links:
   - name: previous pdf 
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5c245RV93MVRRSjQ
@@ -536,10 +535,6 @@
     url: assets/notebooks/17-lec/Spark.html
   - name: Previous Spark Notebook ipynb (tentative)
     url: assets/notebooks/17-lec/Spark.ipynb
-  - name: Linear models pdf 
-    url: https://drive.google.com/open?id=0B7gkaDYGT5X5YXBaM1FpNDQ4X2c
-  - name: Linear models ppptx 
-    url: https://drive.google.com/open?id=0B7gkaDYGT5X5U180ZW4ta1JONnc
   - name: screencast
     url: https://www.youtube.com/watch?v=lmlj9SH6-4w
   assignment: |
@@ -551,10 +546,15 @@
   description: |
     Linear regression is at the foundation of most machine learning and statistical methods. 
     In this lecture we introduce least squares linear regression and derive the normal equations from a geometric perspective. 
-
   links: 
+  - name: Linear models pdf 
+    url: https://drive.google.com/open?id=0B7gkaDYGT5X5YXBaM1FpNDQ4X2c
+  - name: Linear models ppptx 
+    url: https://drive.google.com/open?id=0B7gkaDYGT5X5U180ZW4ta1JONnc
   - name: chalk board
     url: assets/notes/lec21_chalkboard/chalk_board.pdf
+  - name: Handwritten notes 
+    url: assets/notes/geometricPerspectiveLeastSquaresNotes.pdf 
   - name: screencast
     url: https://www.youtube.com/watch?v=AQ-dNSVXZgQ
 
@@ -589,6 +589,11 @@
 - date: 11/9/2017
   topic: Over fitting, Cross-validation, and Dta Science Life Cycle
   lecturer: Nolan
+  description: |
+In this lecture we will follow the data science life cycle as we address a problem through fitting a linear model. Along the way, we touch on the following topics: how to select a loss function; the test-train split to avoid over fitting; selecting a Box-Cox transformation;  
+best subset regression; coding, collapsing, and fitting dummy variables; cross-validation
+for model selection.  In later lecture, we will continue the topic of model selection and
+address issues that arise when there are a large number of variables in the model. 
   links:
   - name: pptx 
     url: https://drive.google.com/open?id=1JWPv3KV42JqQDTcK9p9PVpq9QS6y43Ox
