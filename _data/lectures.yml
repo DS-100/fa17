@@ -589,6 +589,8 @@
 - date: 11/9/2017
   topic: Over fitting, Cross-validation, and Regularization, Ctd.
   lecturer: Gonzalez
+  assignment: |
+    [Homework 6 Released: Spark and Least Squares Linear Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw6.zip)
 
 - date: 11/14/2017
   topic: Maximum Likelihood  
