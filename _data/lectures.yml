@@ -527,7 +527,6 @@
   lecturer: Ramdas, Gonzalez
   description: |
     **Wrap-up:** Our guest lecturer will finish discussing p-hacking (despite the very cool name this actually a bad thing.) We will also finish covering Spark and big-data processing.
-
   links:
   - name: previous pdf 
     url: https://drive.google.com/open?id=0B7gkaDYGT5X5c245RV93MVRRSjQ
@@ -587,7 +586,7 @@
     [Lab 10 Released: Least Squares Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab10.zip)
 
 - date: 11/9/2017
-  topic: Over fitting, Cross-validation, and Dta Science Life Cycle
+  topic: Over fitting, Cross-validation, and Data Science Life Cycle
   lecturer: Nolan
   description: |
 In this lecture we will follow the data science life cycle as we address a problem through fitting a linear model. Along the way, we touch on the following topics: how to select a loss function; the test-train split to avoid over fitting; selecting a Box-Cox transformation;  
