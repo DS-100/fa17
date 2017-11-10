@@ -589,10 +589,10 @@
   topic: Over fitting, Cross-validation, and Data Science Life Cycle
   lecturer: Nolan
   description: |
-In this lecture we will follow the data science life cycle as we address a problem through fitting a linear model. Along the way, we touch on the following topics: how to select a loss function; the test-train split to avoid over fitting; selecting a Box-Cox transformation;  
-best subset regression; coding, collapsing, and fitting dummy variables; cross-validation
-for model selection.  In later lecture, we will continue the topic of model selection and
-address issues that arise when there are a large number of variables in the model. 
+    In this lecture we will follow the data science life cycle as we address a problem through fitting a linear model. Along the way, we touch on the following topics: how to select a loss function; the test-train split to avoid over fitting; selecting a Box-Cox transformation;  
+    best subset regression; coding, collapsing, and fitting dummy variables; cross-validation
+    for model selection.  In later lecture, we will continue the topic of model selection and
+    address issues that arise when there are a large number of variables in the model. 
   links:
   - name: pptx 
     url: https://drive.google.com/open?id=1JWPv3KV42JqQDTcK9p9PVpq9QS6y43Ox
