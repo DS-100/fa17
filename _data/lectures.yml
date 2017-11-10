@@ -598,6 +598,8 @@
     url: https://drive.google.com/open?id=1JWPv3KV42JqQDTcK9p9PVpq9QS6y43Ox
   - name: pdf 
     url: https://drive.google.com/open?id=12aLD_EVRpQsoSUpZQBDGrxNNiT0zleL7
+  - name: screencast
+    url: https://www.youtube.com/watch?v=yRrMGrSDBP0
   assignment: |
     [Homework 6 Released: Spark and Least Squares Linear Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw6.zip)
 
