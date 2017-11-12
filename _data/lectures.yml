@@ -600,6 +600,10 @@
     url: https://drive.google.com/open?id=12aLD_EVRpQsoSUpZQBDGrxNNiT0zleL7
   - name: screencast
     url: https://www.youtube.com/watch?v=yRrMGrSDBP0
+  - name: Data Science Life Cycle Notebook HTML
+    url: assets/notebooks/23-lec/multiple-reg-life-cyclev2.html
+  - name: Raw ipynb Files and Data
+    url: assets/notebooks/23-lec/data_life_cycle_regression.zip
   assignment: |
     [Homework 6 Released: Spark and Least Squares Linear Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw6.zip)
 
