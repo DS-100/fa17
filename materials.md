@@ -22,7 +22,7 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 10: Least Squares Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab10.zip)
 
-Lab 11: Feature Engineering & Cross Validation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab11.zip)
+[Lab 11: Feature Engineering & Cross Validation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab11.zip)
 
 ## Practice Exam Questions
 [Midterm](assets/exams/midterm/midterm.pdf)
