@@ -608,9 +608,11 @@
     [Homework 6 Released: Spark and Least Squares Linear Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/hw6.zip)
 
 - date: 11/14/2017
-  topic: Maximum Likelihood  
-  lecturer: Nolan
-
+  topic: The Bias Variance Tradeoff and Regularization
+  lecturer: Gonzalez
+  description: |
+    There is a fundamental tension in predictive modeling between our ability to fit the data and to generalize to the world. In this lecture we characterize this tension through the tradeoff between bias and variance.  We will derive the bias and variance decomposition of the least squares objective.  We then discuss how to manage this tradeoff by augmenting our objective with a regularization penalty. 
+  
 - date: 11/16/2017
   topic: Classification and Logistic Regression 
   lecturer: Nolan
