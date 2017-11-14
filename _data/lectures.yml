@@ -612,7 +612,20 @@
   lecturer: Gonzalez
   description: |
     There is a fundamental tension in predictive modeling between our ability to fit the data and to generalize to the world. In this lecture we characterize this tension through the tradeoff between bias and variance.  We will derive the bias and variance decomposition of the least squares objective.  We then discuss how to manage this tradeoff by augmenting our objective with a regularization penalty. 
-  
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=1EWx34t0Aq1FEu-_mpJN22QQGISWo4Noa
+  - name: pdf 
+    url: https://drive.google.com/open?id=1Sz01c-lblSRM0rzFvhvoZZUJdet7do7u
+  - name: handout 
+    url: https://drive.google.com/open?id=1VkxwM0aFXheV1VFzx_M0mO8Z99uc90-5
+  - name: Feature Engineering Part 2 (HTML)
+    url: assets/notebooks/24-lec/Feature_Engineering_Part_2.html
+  - name: Bias, Variance, and Regularization (HTML)
+    url: assets/notebooks/24-lec/Bias_Variance_and_Regularization.html
+  - name: Raw Notebooks (ipynb.zip)
+    url: assets/notebooks/24-lec/regularization.zip
+
 - date: 11/16/2017
   topic: Classification and Logistic Regression 
   lecturer: Nolan
