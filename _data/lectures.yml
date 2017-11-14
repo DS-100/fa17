@@ -625,6 +625,8 @@
     url: assets/notebooks/24-lec/Bias_Variance_and_Regularization.html
   - name: Raw Notebooks (ipynb.zip)
     url: assets/notebooks/24-lec/regularization.zip
+  - name: screencast
+    url: https://www.youtube.com/watch?v=y34F4Alquac
   assignment: |
     [Lab 11 Released: Feature Engineering & Cross Validation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab11.zip)
 
