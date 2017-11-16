@@ -637,7 +637,7 @@
   - name: pptx 
     url: https://drive.google.com/open?id=1RRb8Ccp1xDRdksoAEJvyUYoY34Fl_yyJ
   - name: pdf 
-    url:https://drive.google.com/open?id=1Sz01c-lblSRM0rzFvhvoZZUJdet7do7
+    url: https://drive.google.com/open?id=1Sz01c-lblSRM0rzFvhvoZZUJdet7do7
 
 - date: 11/21/2017
   topic: Logistic Regression and Gradient Descent
