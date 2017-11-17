@@ -638,6 +638,10 @@
     url: https://drive.google.com/open?id=1RRb8Ccp1xDRdksoAEJvyUYoY34Fl_yyJ
   - name: pdf 
     url: https://drive.google.com/open?id=1apZ9ZpRux2FuvtzGExGtPm0ksLgrcxk9
+  - name: screencast
+    url: https://www.youtube.com/watch?v=t2tY0SRDONU
+  assignment : |
+    [Project 2 Released: Spam/Ham Prediction](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/proj2.zip)
 
 - date: 11/21/2017
   topic: Logistic Regression and Gradient Descent

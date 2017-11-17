@@ -1,5 +1,8 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 11/17/2017
+  text: |
+    - Project 2 is released and is due Mon, Dec 4st at 11:59PM.
 - date: 11/9/2017
   text: |
     - Homework 6 is released and is due Wed, Nov 15th at 11:59PM.
