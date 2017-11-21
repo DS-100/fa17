@@ -646,6 +646,16 @@
 - date: 11/21/2017
   topic: Logistic Regression and Gradient Descent
   lecturer: Gonzalez
+  description: |
+    Losistic regression is perhaps one of the most widely used models for classification and a key building block in neural networks.  In this lecture we review the logistic regression model and the KL-divergence loss function.  We then introduce the gradient descent and stochastic gradient descent algorithms and discuss how these can be used to minimize the KL-divergence loss function.  Finally, we extend the logistic regression model to the multi-class classification setting through the soft-max function and briefly discuss the connection to deep learning.
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=1YS2ggdiNbNIhS12eqcfePLI-5lw_DTgg
+  - name: pdf 
+    url: https://drive.google.com/open?id=1qwutQqeOB0B3P5Nd2V2M4tXeJX-OsEBF
+  - name: handout 
+    url: https://drive.google.com/open?id=1T9XwhGB9cHXDOtnnlCJiiNj3wcr8gEPV
+  
 
 - date: 11/23/2017
   topic: Holiday!!
