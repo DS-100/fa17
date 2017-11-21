@@ -655,7 +655,13 @@
     url: https://drive.google.com/open?id=1qwutQqeOB0B3P5Nd2V2M4tXeJX-OsEBF
   - name: handout 
     url: https://drive.google.com/open?id=1T9XwhGB9cHXDOtnnlCJiiNj3wcr8gEPV
-  
+  - name: Logistic Regression Notebook Part 1 (html)
+    url: assets/notebooks/26-lec/Logistic_Regression_Part_1.html
+  - name: Logistic Regression Notebook Part 2 (html)
+    url: assets/notebooks/26-lec/Logistic_Regression_Part_2.html
+  - name: Raw Notebooks 
+    url: assets/notebooks/26-lec/lec26_notebooks.zip 
+ 
 
 - date: 11/23/2017
   topic: Holiday!!
