@@ -633,6 +633,16 @@
 - date: 11/16/2017
   topic: Classification and Logistic Regression 
   lecturer: Nolan
+  description: We consider the case when our response is categorical, in particular
+  we focus on the simple case where the response has two categories.
+  We begin by using least squares to fit categorical explanatory variables to our response 
+  and find that our predictions are proportions.
+  Next, we consider more complex model that is linear in quantitative explanatory variables, 
+  called the linear probability model, and we uncover limitations of this model. 
+  We motivate an alternative model, the logistic, by examining a local linear fit and matching its shape. 
+  We also draw connections between the logistic and log odds.
+  Lastly, we introduce an alternative loss function that is more appropriate for working with probabilities,
+  the Kullback-Leibler Divergence. We derive a representation of the K-L divergence for binary response variables.  
   links:
   - name: pptx 
     url: https://drive.google.com/open?id=1RRb8Ccp1xDRdksoAEJvyUYoY34Fl_yyJ
@@ -667,12 +677,12 @@
   topic: Holiday!!
 
 - date: 11/28/2017
-  topic: HTTP requests, REST, Recursive crawling
+  topic: HTTP requests, REST, Recursive crawling, and XPath
   lecturer: Nolan
 
 - date: 11/30/2017
-  topic: JSON, the Document Object Model, and XPath
-  lecturer: Nolan
+  topic: TBA
+  lecturer: Gonzalez
 
 - date: 12/5/2017
   topic: RRR Review
