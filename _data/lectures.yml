@@ -661,9 +661,10 @@
   - name: Logistic Regression Notebook Part 2 (html)
     url: assets/notebooks/26-lec/Logistic_Regression_Part_2.html
   - name: Raw Notebooks 
-    url: assets/notebooks/26-lec/lec26_notebooks.zip 
+    url: assets/notebooks/26-lec/lec26_notebooks.zip
+  - name: screencast
+    url: https://www.youtube.com/watch?v=tPcKqhF3gAI 
  
-
 - date: 11/23/2017
   topic: Holiday!!
 
