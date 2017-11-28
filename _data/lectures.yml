@@ -669,8 +669,15 @@
   topic: Holiday!!
 
 - date: 11/28/2017
-  topic: HTTP requests, REST, Recursive crawling, and XPath
+  topic: HTTP requests, REST, and XPath
   lecturer: Nolan
+  description: |
+    Data are available on the Internet embedded in web pages, from a form submission, and accessible through a REST API. We can access data from these various sources using HTTP - the HyperText Transfer Protocol. We will cover HTTP at a high level, and provide examples of how to use it to access data.  Further, when the data are embedded in an HTML document, we can use XPath to locate and extract it. XPath is a powerful tool developed for locating elements and content in an XML document (much better than regular expressions!). We cover the basics of XPath, which is enough to write complex expressions.   
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=1PdKLUoXSfAr_SvqHC9L1OO-LVxjeq2Qc
+  - name: pdf 
+    url: https://drive.google.com/open?id=1274pH3aG79GWoct2aYi4fkFDdZqvdCb0
 
 - date: 11/30/2017
   topic: TBA
