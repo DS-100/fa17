@@ -24,6 +24,8 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 11: Feature Engineering & Cross Validation](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab11.zip)
 
+[Lab 12: TensorFlow & Logistic/Softmax Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab12.zip)
+
 ## Practice Exam Questions
 [Midterm](assets/exams/midterm/midterm.pdf)
 

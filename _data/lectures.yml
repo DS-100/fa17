@@ -678,6 +678,8 @@
     url: https://drive.google.com/open?id=1PdKLUoXSfAr_SvqHC9L1OO-LVxjeq2Qc
   - name: pdf 
     url: https://drive.google.com/open?id=1274pH3aG79GWoct2aYi4fkFDdZqvdCb0
+  assignment: |
+    [Lab 12 Released: TensorFlow & Logistic/Softmax Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab12.zip)
 
 - date: 11/30/2017
   topic: TBA
