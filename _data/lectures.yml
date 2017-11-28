@@ -672,7 +672,7 @@
   topic: HTTP requests, REST, and XPath
   lecturer: Nolan
   description: |
-    Data are available on the Internet embedded in web pages, from a form submission, and accessible through a REST API. We can access data from these various sources using HTTP - the HyperText Transfer Protocol. We will cover HTTP at a high level, and provide examples of how to use it to access data.  Further, when the data are embedded in an HTML document, we can use XPath to locate and extract it. XPath is a powerful tool developed for locating elements and content in an XML document (much better than regular expressions!). We cover the basics of XPath, which is enough to write complex expressions.   
+    Data are available on the Internet - they can be embedded in web pages, provided after a form submission, and accessible through a REST API. We can access data from these various sources using HTTP - the HyperText Transfer Protocol. We will cover HTTP at a high level, and provide examples of how to use it to access web pages, submit forms, and crate REST requests.  Furthermore, when the data are embedded in an HTML document, we can use XPath to locate and extract it. XPath is a powerful tool developed for locating elements and content in an XML document (much better than regular expressions!). We cover the basics of XPath, which is enough to write complex expressions.   
   links:
   - name: pptx 
     url: https://drive.google.com/open?id=1PdKLUoXSfAr_SvqHC9L1OO-LVxjeq2Qc
