@@ -684,8 +684,15 @@
     [Lab 12 Released: TensorFlow & Logistic/Softmax Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab12.zip)
 
 - date: 11/30/2017
-  topic: TBA
-  lecturer: Gonzalez
+  topic: Ethics in Data Science
+  lecturer: Guest Speaker <a href="https://www.jkroll.com">Joshua Kroll</a>
+  description: |
+    Data science is being used in growing number of settings to make decisions that impact peoples lives.  In this lecture we will discuss just a few of the many ethical and legal considerations in the application of data science to real-world problems.  
+
+    Our guest speaker [Joshua Kroll](https://www.jkroll.com) is a computer scientist and researcher interested in the governance of automated decision-making systems, especially those built with machine learning. He is currently Postdoctoral Research Scholar at UC Berkeley's School of Information, working with Deirdre Mulligan.  Before that he received a PhD in Computer Science in the Security Group at Princeton University. His dissertation on Accountable Algorithms was advised by Edward W. Felten and supported by the Center for Information Technology Policy where he studied topics in security, privacy, and how technology informs policy decisions.  Joshua was the program chair of this year's edition of the successful workshop series ["Fairness, Accountability, and Transparency in Machine Learning (FAT/ML)"](https://www.fatml.org). 
+
+    We will also have short presentation from [Jake Soloff](https://statistics.berkeley.edu/people/jake-soloff) one of our distinguished TAs who recently won the [Citadel Data Science Competition](http://www.dailycal.org/2017/11/28/uc-berkeley-graduate-students-win-100k-international-data-science-competition/) studying the impact of charter schools on education.
+  
 
 - date: 12/5/2017
   topic: RRR Review
