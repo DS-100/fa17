@@ -678,6 +678,8 @@
     url: https://drive.google.com/open?id=1PdKLUoXSfAr_SvqHC9L1OO-LVxjeq2Qc
   - name: pdf 
     url: https://drive.google.com/open?id=1274pH3aG79GWoct2aYi4fkFDdZqvdCb0
+  - name: handout
+    url: https://drive.google.com/open?id=1nnnistmtM3EQ08865SIp4ezcBzE0SXio
   - name: screencast
     url: https://www.youtube.com/watch?v=EHo0Y6S1vIk
   assignment: |
@@ -692,8 +694,18 @@
     Our guest speaker [Joshua Kroll](https://www.jkroll.com) is a computer scientist and researcher interested in the governance of automated decision-making systems, especially those built with machine learning. He is currently Postdoctoral Research Scholar at UC Berkeley's School of Information, working with Deirdre Mulligan.  Before that he received a PhD in Computer Science in the Security Group at Princeton University. His dissertation on Accountable Algorithms was advised by Edward W. Felten and supported by the Center for Information Technology Policy where he studied topics in security, privacy, and how technology informs policy decisions.  Joshua was the program chair of this year's edition of the successful workshop series ["Fairness, Accountability, and Transparency in Machine Learning (FAT/ML)"](https://www.fatml.org). 
 
     We will also have short presentation from [Jake Soloff](https://statistics.berkeley.edu/people/jake-soloff) one of our distinguished TAs who recently won the [Citadel Data Science Competition](http://www.dailycal.org/2017/11/28/uc-berkeley-graduate-students-win-100k-international-data-science-competition/) studying the impact of charter schools on education.
-  
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=1HYATuVz27Q1gxQbbeGCgaTtY0WwbGrU6
+  - name: pdf 
+    url: https://drive.google.com/open?id=1zz5d0uBt9Q9AseTMSd55JAc5ZF6TzKTN
+  - name: handout
+    url: https://drive.google.com/open?id=1OXVitv2D_asuauiv9uMxw46QmtO5ePrE
+  - name: DS Major Info.
+    url: https://drive.google.com/open?id=1Mqs_7-1ludfkoluzwRaP3rE0uYuhJezv
 
+
+    
 - date: 12/5/2017
   topic: RRR Review
   lecturer: Gonzalez
