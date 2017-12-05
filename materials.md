@@ -26,6 +26,8 @@ description: "Labs and Discussion Notebooks"
 
 [Lab 12: TensorFlow & Logistic/Softmax Regression](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab12.zip)
 
+[Lab 13: XPath](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab13.zip)
+
 ## Practice Exam Questions
 [Midterm](assets/exams/midterm/midterm.pdf)
 
