@@ -709,9 +709,16 @@
 - date: 12/5/2017
   topic: RRR Review
   lecturer: Gonzalez
+  links:
+  - name: pptx 
+    url: https://drive.google.com/open?id=1Me91YiTPWk4V38yBCDMgA9H8QGxuSLVo
+  - name: pdf 
+    url: https://drive.google.com/open?id=1fgCNuVYbzyBsuhQedH1j1eaaelzzm10n
+  - name: handout
+    url: https://drive.google.com/open?id=1k88tVaws_jmH6ldcopK6PXp8Tc2ghk06
   assignment: |
     [Lab 13 Released: XPath](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab13.zip)
-
+      
 - date: 12/7/2017
   topic: RRR Review
   lecturer: Nolan
