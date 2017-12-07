@@ -727,7 +727,12 @@
     url: assets/exams/final/fa17_practice_final_no_answers.pdf
   - name: practice questions with solutions 
     url: assets/exams/final/fa17_practice_final_solutions.pdf
-  
+  - name: pptx 
+    url: https://drive.google.com/open?id=1Pnx3efleBZJj-_WrJs94aWUTjGZ7Hs3W
+  - name: pdf 
+    url: https://drive.google.com/open?id=1ltAdZpnf43W3Kl3Hl5P6aFVOnmU8AxxT
+  - name: handout 
+    url: https://drive.google.com/open?id=1jic70o_Q_iF6310dw2h68lUPkUcZqwC-
 
 - date: 12/12/2017
   topic: Study!
