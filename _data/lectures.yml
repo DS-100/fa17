@@ -721,7 +721,13 @@
       
 - date: 12/7/2017
   topic: RRR Review
-  lecturer: Nolan
+  lecturer: Gonzalez
+  links:
+  - name: practice questions 
+    url: assets/exams/final/fa17_practice_final_no_answers.pdf
+  - name: practice questions with solutions 
+    url: assets/exams/final/fa17_practice_final_solutions.pdf
+  
 
 - date: 12/12/2017
   topic: Study!
