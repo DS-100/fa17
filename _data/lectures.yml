@@ -716,6 +716,8 @@
     url: https://drive.google.com/open?id=1RFQguQgyKO-1ytR7tz5dWDzNUAvFpVSj
   - name: handout (v2)
     url: https://drive.google.com/open?id=11SQKHgoxOSxoJ1VCsridDkIzbydP7ESS
+  - name: screencast
+    url: https://www.youtube.com/watch?v=ICPn6fGUt_g
   assignment: |
     [Lab 13 Released: XPath](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab13.zip)
       
@@ -733,6 +735,8 @@
     url: https://drive.google.com/open?id=1ltAdZpnf43W3Kl3Hl5P6aFVOnmU8AxxT
   - name: handout 
     url: https://drive.google.com/open?id=1jic70o_Q_iF6310dw2h68lUPkUcZqwC-
+  - name: screencast
+    url: https://www.youtube.com/watch?v=gePM_2GCe-Q
 
 - date: 12/12/2017
   topic: Study!
