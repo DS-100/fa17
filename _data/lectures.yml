@@ -710,12 +710,12 @@
   topic: RRR Review
   lecturer: Gonzalez
   links:
-  - name: pptx 
-    url: https://drive.google.com/open?id=1Me91YiTPWk4V38yBCDMgA9H8QGxuSLVo
-  - name: pdf 
-    url: https://drive.google.com/open?id=1fgCNuVYbzyBsuhQedH1j1eaaelzzm10n
-  - name: handout
-    url: https://drive.google.com/open?id=1k88tVaws_jmH6ldcopK6PXp8Tc2ghk06
+  - name: pptx (v2)
+    url: https://drive.google.com/open?id=1-hEh8SWLcsR7ZdMZE47ldV0I5tTo8oZI
+  - name: pdf (v2)
+    url: https://drive.google.com/open?id=1RFQguQgyKO-1ytR7tz5dWDzNUAvFpVSj
+  - name: handout (v2)
+    url: https://drive.google.com/open?id=11SQKHgoxOSxoJ1VCsridDkIzbydP7ESS
   assignment: |
     [Lab 13 Released: XPath](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab13.zip)
       
