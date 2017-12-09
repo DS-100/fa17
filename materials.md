@@ -49,6 +49,12 @@ description: "Labs and Discussion Notebooks"
 
 [Discussion 8: P-values & P-hacking](https://docs.google.com/a/berkeley.edu/presentation/d/18F5ERbcXTfiTUpThrOeYHAqaLXa7G8XgehHkW2nmExA/edit?usp=sharing)
 
+[Discussion 9: Regression and Featurization](https://github.com/DS-100/fa17-materials/tree/master/disc/disc09)
+
+[Discussion 10: Linear Algebra and Gradient Review](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/disc10.zip)
+
+[Discussion 12: Precision/Recall and Logistic Regression](https://docs.google.com/a/berkeley.edu/presentation/d/1cR5pVL16wHx3V8FaGrnpWX4HJst2Ibacpco6P1ZxFFY/edit?usp=sharing)
+
 ## Previous Semester's Materials
 
 You can take a look at materials from the previous semester [github repository](https://github.com/DS-100/sp17/tree/master/materials).

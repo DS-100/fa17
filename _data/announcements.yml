@@ -1,5 +1,8 @@
 # This file contains the course announcements in reverse chronological order.
 # Note that only the most recent (topmost) announcement is rendered.
+- date: 12/8/2017
+  text: |
+    - The final exam will be from 8:00AM to 11:00AM on Thursday 12/14/2017 in Valley Life Sciences 2050. 
 - date: 11/17/2017
   text: |
     - Project 2 is released and is due Mon, Dec 4th at 11:59PM.
