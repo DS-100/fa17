@@ -3,6 +3,12 @@ layout: page
 title: "Materials"
 description: "Labs and Discussion Notebooks"
 ---
+
+
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
+
 ## Labs
 [Lab 2: Pandas Overview](https://github.com/DS-100/fa17-materials/raw/master/zipfiles/lab02.zip)
 

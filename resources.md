@@ -3,6 +3,9 @@ layout: page
 title: "Resources"
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 We will be posting all lecture materials on the course syllabus.  In addition, they will also be listed in the following publicly visible [Google drive folder](https://drive.google.com/drive/folders/0Bze55lezLJhIM3BBRW0wc0lXQWs).
 
 Here is a collection of resources that will help you learn more about various concepts and skills covered in the class.  Learning by reading is a key part of being a well rounded data scientist.  We will not assign mandatory reading but instead encourage you to look at these _and other_ materials.  If you find something helpful, post it on Piazza, and consider contributing it to the course website.
